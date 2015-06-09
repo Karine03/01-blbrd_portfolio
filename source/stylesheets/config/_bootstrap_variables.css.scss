@@ -5,17 +5,19 @@
 
 // General style
 $font-family-sans-serif:  $base-font;
-$body-bg:                 lighten(#000, 93.5%);
+// $body-bg:                 lighten(#000, 93.5%);
 $font-size-base:          $base-size;
 $line-height-base:        $base-height;
 $headings-font-family:    $header-font;
+$font-size-h1:            2.5em;
+$text-color:              $light-grey;
 
 // Semantic color scheme
-$brand-primary:   $blue;
-$brand-success:   $green;
-$brand-info:      $yellow;
-$brand-danger:    $red;
-$brand-warning:   $orange;
+$brand-primary:   $red;
+// $brand-success:   $green;
+$brand-info:      $dark-grey;
+// $brand-danger:    $red;
+// $brand-warning:   $orange;
 
 // Buttons / inputs radius
 $border-radius-base:  2px;

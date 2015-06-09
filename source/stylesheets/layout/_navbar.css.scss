@@ -1,26 +1,26 @@
 /* -------------------------------------
  * Colors & Fonts
  * ------------------------------------- */
-$navbar-color: black;
-$navbar-hover-color: $yellow;
-$navbar-font-family: $header-font;
-$navbar-bg: white;
+$navbar-color: $red;
+$navbar-hover-color: $light-grey;
+$navbar-font-family: "Roboto Condensed", "sans-serif";
+$navbar-bg: transparent;
 
 /* -------------------------------------
  * Box model
  * ------------------------------------- */
-$navbar-height: 50px;
+$navbar-height: 60px;
 $navbar-vertical-padding: 5px;
 $navbar-horizontal-padding: 20px;
 $navbar-border-bottom-width: 0;
-$navbar-border-bottom-color: grey;
+$navbar-border-bottom-color: $red;
 
 /* -------------------------------------
  * Navbar button
  * ------------------------------------- */
 $navbar-btn-height: 40px;
-$navbar-btn-bg: lightgrey;
-$navbar-btn-color: white;
+$navbar-btn-bg: rgba(0,0,0,0);
+$navbar-btn-color: $red;
 $navbar-btn-horizontal-padding: 10px;
 $navbar-btn-radius: 2px;
 
@@ -81,11 +81,12 @@ $navbar-profile-border-width: 2px;
     color: $navbar-btn-color;
     border-radius: $navbar-btn-radius;
     margin-top: ($navbar-height + 2 * $navbar-vertical-padding - $navbar-btn-height) / 2;
-    font-weight: bold;
+    font-weight: 400;
     background-color: $navbar-btn-bg;
-    font-size: 12px;
+    font-size: 16px;
     &:hover{
-      background-color: darken($navbar-btn-bg, 30%);
+      background-color: $red;
+      color: white;
     }
   }
 
