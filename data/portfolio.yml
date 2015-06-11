@@ -1,0 +1,17 @@
+- name: Château Siaurac and Co
+  picture: siaurac.jpg
+  type: branding - web design - editorial design - packaging
+  url: /chateau_siaurac.html
+- name: Prima
+  picture: prima.jpg
+  type: branding - web design
+  url: /prima.html
+- name: Foodstore and partners
+  picture: foodstore.jpg
+  type: branding - editorial design
+  url: /foodstores.html
+- name: La Fourmi
+  picture: lafourmi.jpg
+  type: branding - web design
+  url: /la_fourmi.html
+
