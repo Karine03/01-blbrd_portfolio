@@ -3,6 +3,16 @@
  * These are examples of utilities classes
  * Feel free to change them and create your own
  * ------------------------------------- */
+
+.paragraph-padded {
+  padding-top: 2em;
+}
+
+// .vertical-padded {
+//   padding-top: 200px;
+
+//   }
+
 .padded {
   padding-top: 8em;
   padding-bottom: 8em;
@@ -31,3 +41,19 @@
   background: $purple;
   color: white;
 }
+
+.img-small {
+  width: 100px;
+}
+
+.img-full {
+  width: 100%;
+  min-widht: 500px;
+}
+
+
+
+
+
+
+
