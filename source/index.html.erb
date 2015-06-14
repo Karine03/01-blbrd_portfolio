@@ -1,19 +1,20 @@
 ---
-title: BLBRD - Creative Studio in Paris
+title: BLBRD - Developer and Art Director in Paris
 ---
 
 
 <div id="banner" class="text-center">
   <div class="fadeInHome">
-    <h1>INDEPENDANT DESIGN STUDIO LED BY CREATIVES</h1>
+    <h1>ART DIRECTION AND WEB DEVELOPMENT</h1>
     <span class="subhead-big">
-      Timeless, Powerful, Consistent and Elegant Design for your brand
+      Timeless, powerful, consistent and elegant design for your brand
     </span>
     <br>
     <%=link_to"See the portfolio", "/work.html", class: "btn btn-info btn-lg"%>
   </div>
   <div class="arrow-container fadeInArrow">
-    <a href="#services"><i class="fa fa-angle-down scroll-btn"></i>
+    <a href="#services">
+      <i class="fa fa-angle-down scroll-btn"></i>
     </a>
   </div>
 </div>
@@ -23,28 +24,32 @@ title: BLBRD - Creative Studio in Paris
     <div class="row text-center">
       <div class="col-sm-6 col-md-3">
        <%= image_tag "focus.png", alt: "focus", class: "img-small"%>
-       <p class="paragraph-padded">
+       <h3 class="sh-padded">#strategy</h3>
+       <p>
           From the idea to the delivery, we focus on a way to <strong>make your brand matter</strong>. We work closely with our clients to redefine their brand strategy.
        </p>
       </div>
 
       <div class="col-sm-6 col-md-3">
         <%= image_tag "brightness.png", alt: "idea", class: "img-small"%>
-        <p class="paragraph-padded">
+        <h3 class="sh-padded">#creativity</h3>
+        <p>
           Creativity is always at <strong>the heart of our approch</strong>. We create simple answer where form and function work together as one to make a clear and <strong>appropriate design</strong>.
         </p>
       </div>
 
       <div class="col-sm-6 col-md-3">
         <%= image_tag "dev.png", alt: "tools", class: "img-small"%>
-        <p class="paragraph-padded">
-          Whether it's to make <strong>movies</strong>, <strong>applications</strong> or <strong>websites</strong>, we have all the necessary tools to deliver <strong>premium artwork</strong>.
+        <h3 class="sh-padded">#multidisciplinary</h3>
+        <p>
+          Whether it's to <strong>design</strong>your brand, develop <strong>applications</strong> or <strong>websites</strong>, we have all the necessary tools to deliver <strong>premium artwork</strong>.
         </p>
       </div>
 
       <div class="col-sm-6 col-md-3">
         <%= image_tag "helicopter.png", alt: "international", class: "img-small"%>
-        <p class="paragraph-padded">
+        <h3 class="sh-padded">#international</h3>
+        <p>
           We are always thrilled to work with <strong>international brand</strong>! Curious about <strong>foreign cultures</strong>, and proud to bring our <strong>french touch</strong>!
         </p>
       </div>
@@ -55,10 +60,11 @@ title: BLBRD - Creative Studio in Paris
 <div id="work-exemple" class="padded text-center">
   <div class="container">
     <div class="row">
-      <% data.portfolio.each do |work| %>
+      <h2 class="mh-padded">Portfolio</h2>
+      <% data.portfolio.first(4).each do |work| %>
         <div class="col-xs-12 col-sm-6 col-md-3">
           <a href="<%= work.url %>">
-          <%= image_tag work.picture, class: "img-medium" %>
+          <%= image_tag work.picture, class: "img-medium img-padded" %>
           </a>
         </div>
       <% end %>

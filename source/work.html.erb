@@ -9,7 +9,7 @@ title: BLBRD - Portfolio
       <% data.portfolio.each do |work| %>
         <div class="col-xs-12 col-sm-6 col-md-3">
           <a href="<%= work.url %>">
-          <%= image_tag work.picture, class: "img-medium" %>
+          <%= image_tag work.picture, class: "img-medium img-padded" %>
           </a>
         </div>
       <% end %>

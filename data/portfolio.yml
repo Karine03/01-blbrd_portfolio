@@ -2,6 +2,7 @@
   picture: siaurac.jpg
   type: branding - web design - editorial design - packaging
   url: /chateau_siaurac.html
+  description:
 - name: Prima
   picture: prima.jpg
   type: branding - web design
@@ -14,4 +15,28 @@
   picture: lafourmi.jpg
   type: branding - web design
   url: /la_fourmi.html
+- name: Declaration of Human Right
+  picture: ddhc.jpg
+  type: poster design
+  url: /ddhc.html
+- name: Défilé des primeurs
+  picture: ddp.jpg
+  type: branding
+  url: /ddp.html
+- name: Egg Magazine
+  picture: egg.jpg
+  type: editiorial design
+  url: /egg.html
+- name: Heinz
+  picture: heinz.jpg
+  type: editiorial design
+  url: /heinz.html
+- name: Two
+  picture: two.jpg
+  type: photography - editiorial design
+  url: /two.html
+- name: Requiem
+  picture: requiem.jpg
+  type: editiorial design
+  url: /requiem.html
 

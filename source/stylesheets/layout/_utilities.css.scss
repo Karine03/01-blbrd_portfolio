@@ -4,8 +4,12 @@
  * Feel free to change them and create your own
  * ------------------------------------- */
 
-.paragraph-padded {
-  padding-top: 2em;
+.sh-padded {
+  padding-top: 1em;
+}
+
+.mh-padded {
+  padding-bottom: 1em;
 }
 
 // .vertical-padded {
@@ -61,6 +65,11 @@
   width: 250px;
 }
 
+.img-padded {
+  margin-top: 25px;
+  margin-bottom: 25px
+
+}
 
 
 
