@@ -1,42 +1,64 @@
+
+
 - name: Château Siaurac and Co
-  picture: siaurac.jpg
+  img_path: work/siaurac
+  thumbnail: siaurac-thumbnail.jpg
+  bg_img: siaurac-banner.jpg
   type: branding - web design - editorial design - packaging
-  url: /chateau_siaurac.html
+  url: chateau_siaurac
   description:
 - name: Prima
-  picture: prima.jpg
+  img_path: work/prima
+  thumbnail: prima-thumbnail.jpg
+  bg_img: prima-banner.jpg
   type: branding - web design
-  url: /prima.html
+  url: prima
 - name: Foodstore and partners
-  picture: foodstore.jpg
+  img_path: work/foodstore
+  thumbnail: foodstore-thumbnail.jpg
+  bg_img: foodstore-banner.jpg
   type: branding - editorial design
-  url: /foodstores.html
+  url: foodstore
 - name: La Fourmi
-  picture: lafourmi.jpg
+  img_path: work/lafourmi
+  thumbnail: lafourmi-thumbnail.jpg
+  bg_img: lafourmi-banner.jpg
   type: branding - web design
-  url: /la_fourmi.html
+  url: lafourmi
 - name: Declaration of Human Right
-  picture: ddhc.jpg
+  img_path: work/ddhc
+  thumbnail: ddhc-thumbnail.jpg
+  bg_img: ddhc-banner.jpg
   type: poster design
-  url: /ddhc.html
+  url: ddhc
 - name: Défilé des primeurs
-  picture: ddp.jpg
+  img_path: work/ddp
+  thumbnail: ddp-thumbnail.jpg
+  bg_img: ddp-banner.jpg
   type: branding
-  url: /ddp.html
+  url: ddp
 - name: Egg Magazine
-  picture: egg.jpg
+  img_path: work/egg
+  thumbnail: egg-thumbnail.jpg
+  bg_img: egg-banner.jpg
   type: editiorial design
-  url: /egg.html
+  url: egg
 - name: Heinz
-  picture: heinz.jpg
+  img_path: work/heinz
+  thumbnail: heinz-thumbnail.jpg
+  bg_img: heinz-banner.jpg
   type: editiorial design
-  url: /heinz.html
+  url: heinz
 - name: Two
-  picture: two.jpg
+  img_path: work/two
+  thumbnail: two-thumbnail.jpg
+  bg_img: two-banner.jpg
   type: photography - editiorial design
-  url: /two.html
+  url: two
 - name: Requiem
-  picture: requiem.jpg
+  img_path: work/requiem
+  thumbnail: requiem-thumbnail.jpg
+  bg_img: requiem-banner.jpg
   type: editiorial design
-  url: /requiem.html
+  url: requiem
 

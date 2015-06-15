@@ -57,15 +57,20 @@ title: BLBRD - Developer and Art Director in Paris
   </div>
 </div>
 
+
+
+
+
 <div id="work-exemple" class="padded text-center">
   <div class="container">
     <div class="row">
       <h2 class="mh-padded">Portfolio</h2>
-      <% data.portfolio.first(4).each do |work| %>
+      <% data.portfolio.first(4).each do |p| %>
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <a href="<%= work.url %>">
-          <%= image_tag work.picture, class: "img-medium img-padded" %>
-          </a>
+          <% link_to "/work/#{p.url}.html" do %>
+            <% image_url = "#{p.img_path}/#{p.thumbnail}" %>
+            <%= image_tag image_url, class: "img-medium img-padded" %>
+          <% end %>
         </div>
       <% end %>
     </div>

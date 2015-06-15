@@ -3,14 +3,17 @@ title: BLBRD - Portfolio
 ---
 
 
+
 <div id="work-exemple" class="padded text-center">
   <div class="container">
     <div class="row">
-      <% data.portfolio.each do |work| %>
+
+      <% data.portfolio.each do |p| %>
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <a href="<%= work.url %>">
-          <%= image_tag work.picture, class: "img-medium img-padded" %>
-          </a>
+          <% link_to "/work/#{p.url}.html" do %>
+            <% image_url = "#{p.img_path}/#{p.thumbnail}" %>
+            <%= image_tag image_url, class: "img-medium img-padded" %>
+          <% end %>
         </div>
       <% end %>
     </div>
