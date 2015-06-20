@@ -1,64 +1,283 @@
 
-
-- name: Château Siaurac and Co
+- id: balloon
+  name: The Balloon Diary
+  img_path: work/balloon
+  thumbnail: balloon-thumbnail.jpg
+  bg_img: balloon-banner.jpg
+  type: web design
+  url: balloon
+  link: http://www.theballoondiary.com/
+  description: |
+      The Balloon Diary is a lifestyle and fashion blog,
+      telling the story of Anna Dawson, an australian girl
+      who started a new life in Paris and posting about
+      what she discovers everyday.
+      <br />
+      <br />
+  medium: <strong>website design</strong>
+  images:
+    - balloon-1.jpg
+    - balloon-2.jpg
+- id: something
+  name: Something Magazine
+  img_path: work/something
+  thumbnail: something-thumbnail.jpg
+  bg_img: something-banner.jpg
+  type: branding - web design
+  url: something
+  link: http://www.something-mag.com/
+  description: |
+      Something Magazine is a lifestyle blog,
+      posting about food, design, ...
+      They wanted to have a clean and easy to
+      read blog, with a strong brand identity.
+      <br />
+      <br />
+  medium: <strong>brand identity / website design</strong>
+  images:
+    - something-1.jpg
+    - something-2.jpg
+    - something-3.jpg
+- id: siaurac
+  name: Château Siaurac and Co
   img_path: work/siaurac
   thumbnail: siaurac-thumbnail.jpg
   bg_img: siaurac-banner.jpg
   type: branding - web design - editorial design - packaging
   url: chateau_siaurac
-  description:
-- name: Prima
+  description: |
+    Rebranding for <strong>Château Siaurac and Co</strong>,
+    a french vineyard near Bordeaux.
+    <br />
+    After renaming the company as Château Siaurac and Co,
+    instead of Vins Baronne Guichard, the brand wanted to
+    communicate around the business activity, the vine and
+    the vineyard; to create a graphic
+    <br />
+    <br />
+  medium: |
+    <strong>brand identity / website design / guidelines / packaging /
+    editiorial design / various printed collaterals</strong>
+  images:
+    - siaurac-1.jpg
+    - siaurac-2.jpg
+    - siaurac-3.jpg
+    - siaurac-4.jpg
+    - siaurac-5.jpg
+    - siaurac-6.jpg
+    - siaurac-7.jpg
+    - siaurac-8.jpg
+- id: prima
+  name: Prima
   img_path: work/prima
   thumbnail: prima-thumbnail.jpg
   bg_img: prima-banner.jpg
   type: branding - web design
   url: prima
-- name: Foodstore and partners
+  description: |
+      Prima Contract, a general contractor, wanted to
+      have a website to explain their business and show
+      their project. They also wanted to change their identity
+      for something more impactful and representative of
+      their business.
+      <br />
+      <br />
+  medium: <strong>brand identity / website design</strong>
+  images:
+    - prima-1.jpg
+    - prima-2.jpg
+    - prima-3.jpg
+    - prima-4.jpg
+- id: foodstore
+  name: Foodstore and partners
   img_path: work/foodstore
   thumbnail: foodstore-thumbnail.jpg
   bg_img: foodstore-banner.jpg
   type: branding - editorial design
   url: foodstore
-- name: La Fourmi
+  description: |
+    Branding for <strong>Foodstore and Partners</strong>,
+    expert in estate development specialised in streetfood restaurant.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    <strong>Fugiat nisi asperiores</strong>, quae aut.
+    Fugiat reprehenderit atque soluta totam nihil
+    iste voluptatem <strong>odio animi </strong>mollitia fuga,
+    sint similique ad nostrum consectetur.
+    <br />
+    <br />
+  medium: |
+    <strong>brand identity / guidelines /
+    editiorial design / various printed collaterals</strong>
+  images:
+    - foodstore-1.jpg
+    - foodstore-2.jpg
+    - foodstore-3.jpg
+    - foodstore-4.jpg
+    - foodstore-5.jpg
+    - foodstore-6.jpg
+- id: lafourmi
+  name: La Fourmi
   img_path: work/lafourmi
   thumbnail: lafourmi-thumbnail.jpg
   bg_img: lafourmi-banner.jpg
   type: branding - web design
   url: lafourmi
-- name: Declaration of Human Right
+  link: http://lafourmi-archi.com/accueil/
+  description: |
+      Lorem ipsum dolor sit ame
+      onsectetur adipisicing elit. Labore tenetur
+      sequi, tempora reiciendis quis autem officia
+      incidunt quidem in assumenda iste non, rerum,
+      amet! Officiis cumque voluptas culpa,
+      voluptatum at!
+      <br />
+      <br />
+  medium: <strong>brand identity / website design</strong>
+  images:
+    - lafourmi-1.jpg
+    - lafourmi-2.jpg
+    - lafourmi-3.jpg
+- id: ddhc
+  name: Declaration of Human Right
   img_path: work/ddhc
   thumbnail: ddhc-thumbnail.jpg
   bg_img: ddhc-banner.jpg
   type: poster design
   url: ddhc
-- name: Défilé des primeurs
+  description: |
+      Lorem ipsum dolor sit ame
+      onsectetur adipisicing elit. Labore tenetur
+      sequi, tempora reiciendis quis autem officia
+      incidunt quidem in assumenda iste non, rerum,
+      amet! Officiis cumque voluptas culpa,
+      voluptatum at!
+      <br />
+      <br />
+  medium: <strong>poster design</strong>
+  images:
+  - ddhc-1.jpg
+  - ddhc-2.jpg
+- id: ddp
+  name: Défilé des primeurs
   img_path: work/ddp
   thumbnail: ddp-thumbnail.jpg
   bg_img: ddp-banner.jpg
   type: branding
   url: ddp
-- name: Egg Magazine
+  description: |
+      Lorem ipsum dolor sit ame
+      onsectetur adipisicing elit. Labore tenetur
+      sequi, tempora reiciendis quis autem officia
+      incidunt quidem in assumenda iste non, rerum,
+      amet! Officiis cumque voluptas culpa,
+      voluptatum at!
+      <br />
+      <br />
+  medium: <strong>brand identity / packaging</strong>
+  images:
+  - ddp-1.jpg
+  - ddp-2.jpg
+  - ddp-3.jpg
+- id: egg
+  name: Egg Magazine
   img_path: work/egg
   thumbnail: egg-thumbnail.jpg
   bg_img: egg-banner.jpg
   type: editiorial design
   url: egg
-- name: Heinz
+  description: |
+      Lorem ipsum dolor sit ame
+      onsectetur adipisicing elit. Labore tenetur
+      sequi, tempora reiciendis quis autem officia
+      incidunt quidem in assumenda iste non, rerum,
+      amet! Officiis cumque voluptas culpa,
+      voluptatum at!
+      <br />
+      <br />
+  medium: <strong>brand identity / editorial design</strong>
+  images:
+    - egg-1.jpg
+    - egg-2.jpg
+    - egg-3.jpg
+    - egg-4.jpg
+    - egg-5.jpg
+    - egg-6.jpg
+    - egg-7.jpg
+    - egg-8.jpg
+- id: heinz
+  name: Heinz
   img_path: work/heinz
   thumbnail: heinz-thumbnail.jpg
   bg_img: heinz-banner.jpg
   type: editiorial design
   url: heinz
-- name: Two
+  description: |
+      Lorem ipsum dolor sit ame
+      onsectetur adipisicing elit. Labore tenetur
+      sequi, tempora reiciendis quis autem officia
+      incidunt quidem in assumenda iste non, rerum,
+      amet! Officiis cumque voluptas culpa,
+      voluptatum at!
+      <br />
+      <br />
+  medium: <strong>editiorial design / photography</strong>
+  images:
+    - heinz-1.jpg
+    - heinz-2.jpg
+    - heinz-3.jpg
+    - heinz-4.jpg
+    - heinz-5.jpg
+    - heinz-7.jpg
+    - heinz-8.jpg
+- id: two
+  name: Two
   img_path: work/two
   thumbnail: two-thumbnail.jpg
   bg_img: two-banner.jpg
   type: photography - editiorial design
   url: two
-- name: Requiem
+  description: |
+      Lorem ipsum dolor sit ame
+      onsectetur adipisicing elit. Labore tenetur
+      sequi, tempora reiciendis quis autem officia
+      incidunt quidem in assumenda iste non, rerum,
+      amet! Officiis cumque voluptas culpa,
+      voluptatum at!
+      <br />
+      <br />
+  medium: <strong>editiorial design / photography</strong>
+  images:
+    - two-1.jpg
+    - two-2.jpg
+    - two-4.jpg
+    - two-5.jpg
+    - two-7.jpg
+    - two-8.jpg
+    - two-9.jpg
+- id: requiem
+  name: Requiem
   img_path: work/requiem
   thumbnail: requiem-thumbnail.jpg
   bg_img: requiem-banner.jpg
   type: editiorial design
   url: requiem
+  description: |
+    Lorem ipsum dolor sit ame
+    onsectetur adipisicing elit. Labore tenetur
+    sequi, tempora reiciendis quis autem officia
+    incidunt quidem in assumenda iste non, rerum,
+    amet! Officiis cumque voluptas culpa,
+    voluptatum at!
+    <br />
+    <br />
+  medium: <strong>editiorial design / typography</strong>
+  images:
+    - requiem-1.jpg
+    - requiem-2.jpg
+    - requiem-3.jpg
+    - requiem-4.jpg
+    - requiem-5.jpg
+    - requiem-6.jpg
+    - requiem-7.jpg
+    - requiem-8.jpg
 

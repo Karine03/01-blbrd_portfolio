@@ -42,7 +42,7 @@ title: BLBRD - Developer and Art Director in Paris
         <%= image_tag "dev.png", alt: "tools", class: "img-small"%>
         <h3 class="sh-padded">#multidisciplinary</h3>
         <p>
-          Whether it's to <strong>design</strong>your brand, develop <strong>applications</strong> or <strong>websites</strong>, we have all the necessary tools to deliver <strong>premium artwork</strong>.
+          Whether it's to <strong>design</strong> your brand, develop <strong>applications</strong> or <strong>websites</strong>, we have all the necessary tools to deliver <strong>premium artwork</strong>.
         </p>
       </div>
 
@@ -64,7 +64,7 @@ title: BLBRD - Developer and Art Director in Paris
 <div id="work-exemple" class="padded text-center">
   <div class="container">
     <div class="row">
-      <h2 class="mh-padded">Portfolio</h2>
+      <h2 class="mh-padded">Last projects</h2>
       <% data.portfolio.first(4).each do |p| %>
         <div class="col-xs-12 col-sm-6 col-md-3">
           <% link_to "/work/#{p.url}.html" do %>
@@ -73,6 +73,7 @@ title: BLBRD - Developer and Art Director in Paris
           <% end %>
         </div>
       <% end %>
+      <%=link_to"See full portfolio", "/work.html", class: "btn btn-primary btn-lg"%>
     </div>
   </div>
 </div>

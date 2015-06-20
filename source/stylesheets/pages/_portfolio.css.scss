@@ -1,9 +1,81 @@
-#banner-siaurac {
+.project-banner{
  position: relative;
- background: image-url('work/siaurac/siaurac-banner.jpg');
- background-size: cover;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
  padding-top: 250px;
  padding-bottom: 250px;
  height: 100%;
  min-height: 500px;
+}
+
+#banner-balloon {
+ background: image-url('work/balloon/balloon-banner.jpg')no-repeat center center fixed;
+ background-size: cover;
+}
+
+#banner-something {
+ background: image-url('work/something/something-banner.jpg')no-repeat center center fixed;
+ background-size: cover;
+}
+
+#banner-prima {
+ background: image-url('work/prima/prima-banner.jpg')no-repeat center center fixed;
+ background-size: cover;
+}
+
+#banner-siaurac {
+ background: image-url('work/siaurac/siaurac-banner.jpg')no-repeat center center fixed;
+ background-size: cover;
+}
+
+#banner-requiem {
+ background: image-url('work/requiem/requiem-banner.jpg')no-repeat center center fixed;
+ background-size: cover;
+}
+
+#banner-foodstore {
+ background: image-url('work/foodstore/foodstore-banner.jpg')no-repeat center center fixed;
+ background-size: cover;
+}
+
+#banner-ddhc {
+ background: image-url('work/ddhc/ddhc-banner.jpg')no-repeat center center fixed;
+ background-size: cover;
+}
+
+#banner-ddp {
+ background: image-url('work/ddp/ddp-banner.jpg')no-repeat center center fixed;
+ background-size: cover;
+}
+
+#banner-egg {
+ background: image-url('work/egg/egg-banner.jpg')no-repeat center center fixed;
+ background-size: cover;
+}
+
+#banner-heinz {
+ background: image-url('work/heinz/heinz-banner.jpg')no-repeat center center fixed;
+ background-size: cover;
+}
+
+#banner-lafourmi {
+ background: image-url('work/lafourmi/lafourmi-banner.jpg')no-repeat center center fixed;
+ background-size: cover;
+}
+
+#banner-two {
+ background: image-url('work/two/two-banner.jpg')no-repeat center center fixed;
+ background-size: cover;
+}
+
+.project-link {
+
+}
+
+#project {
+  background-color:$lighter-grey;
+  p {
+    padding-bottom: 2em;
+  }
 }
