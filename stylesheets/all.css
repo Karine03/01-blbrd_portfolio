@@ -9019,15 +9019,14 @@ button.close {
   /* line 116, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-collapse {
     border: none;
-    box-shadow: none;
-    margin-top: 15px; }
-  /* line 122, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_navbar.css.scss */
+    box-shadow: none; }
+  /* line 121, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .icon-bar {
     background-color: #FF6D5E !important; }
-  /* line 126, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_navbar.css.scss */
+  /* line 125, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > .dropdown-menu {
     border-radius: 0; }
-  /* line 130, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_navbar.css.scss */
+  /* line 129, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > .dropdown-menu:before {
     position: absolute;
     background: white;
@@ -9047,10 +9046,10 @@ button.close {
  * Navbar profile picture
  * ------------------------------------- */
 @media screen and (max-width: 768px) {
-  /* line 153, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_navbar.css.scss */
+  /* line 152, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand img, .navbar-wagon .navbar-brand svg {
     height: 50px; }
-  /* line 156, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_navbar.css.scss */
+  /* line 155, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand, .navbar-wagon .navbar-brand:hover {
     display: block;
     color: #FF6D5E;
