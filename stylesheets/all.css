@@ -16,7 +16,7 @@ html {
 
 /* line 5, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/config/_base.css.scss */
 body {
-  color: #5A6164;
+  color: #54626F;
   font-weight: 100 !important;
   height: 100%; }
 
@@ -1176,7 +1176,7 @@ body {
   font-family: "Titillium Web", "Helvetica", "sans-serif";
   font-size: 15px;
   line-height: 1.4;
-  color: #5A6164;
+  color: #54626F;
   background-color: #fff; }
 
 /* line 36, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_scaffolding.scss */
@@ -3246,7 +3246,7 @@ select[multiple].input-lg,
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #9aa1a4; }
+  color: #94a2ae; }
 
 @media (min-width: 768px) {
   /* line 410, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_forms.scss */
@@ -5077,7 +5077,7 @@ a.badge:hover, a.badge:focus {
   /* line 27, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_thumbnails.scss */
   .thumbnail .caption {
     padding: 9px;
-    color: #5A6164; }
+    color: #54626F; }
 
 /* line 34, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_thumbnails.scss */
 a.thumbnail:hover,
@@ -8916,7 +8916,7 @@ button.close {
 
 /* line 3, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_footer.css.scss */
 #footer {
-  background-color: #5A6164;
+  background-color: #54626F;
   padding: 20px 0;
   color: white; }
   /* line 7, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_footer.css.scss */
@@ -9010,14 +9010,24 @@ button.close {
     border-radius: 50%; }
   /* line 107, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-toggle {
-    border-color: #dddddd;
+    border-color: #FF6D5E;
     width: 45px;
     background: transparent; }
-  /* line 113, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_navbar.css.scss */
+    /* line 111, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_navbar.css.scss */
+    .navbar-wagon .navbar-toggle:hover {
+      background: transparent; }
+  /* line 116, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_navbar.css.scss */
+  .navbar-wagon .navbar-collapse {
+    border: none;
+    box-shadow: none;
+    margin-top: 15px; }
+  /* line 122, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_navbar.css.scss */
+  .navbar-wagon .icon-bar {
+    background-color: #FF6D5E !important; }
+  /* line 126, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > .dropdown-menu {
-    border-radius: 0;
-    margin-top: 10px; }
-  /* line 118, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_navbar.css.scss */
+    border-radius: 0; }
+  /* line 130, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > .dropdown-menu:before {
     position: absolute;
     background: white;
@@ -9026,7 +9036,7 @@ button.close {
     content: "\00a0";
     display: block;
     left: 50%;
-    margin-left: -5px;
+    margin-left: 55px;
     top: -5px;
     transform: rotate(45deg);
     border-top: 1px solid #e6e6e6;
@@ -9037,10 +9047,10 @@ button.close {
  * Navbar profile picture
  * ------------------------------------- */
 @media screen and (max-width: 768px) {
-  /* line 141, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_navbar.css.scss */
+  /* line 153, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand img, .navbar-wagon .navbar-brand svg {
     height: 50px; }
-  /* line 144, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_navbar.css.scss */
+  /* line 156, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand, .navbar-wagon .navbar-brand:hover {
     display: block;
     color: #FF6D5E;
