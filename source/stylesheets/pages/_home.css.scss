@@ -1,6 +1,6 @@
 #banner {
   position: relative;
-  background: image-url('banner2.jpg')no-repeat fixed;
+  background: no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -15,6 +15,12 @@
   }
 }
 
+@media only screen and (min-width: 768px) {
+  #banner {
+    background-image: image-url('banner2.jpg');
+  }
+}
+
 @media only screen and (max-width: 767px) {
   #banner {
     background-image: image-url('banner_phone.jpg');
@@ -25,4 +31,5 @@
 #work-exemple {
   background-color:$lighter-grey;
 }
+
 
