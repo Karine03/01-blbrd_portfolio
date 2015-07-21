@@ -9289,7 +9289,7 @@ button.close {
 /* line 1, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
 #banner {
   position: relative;
-  background: url("../images/banner2.jpg") no-repeat fixed;
+  background: no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -9303,11 +9303,15 @@ button.close {
   #banner h1 {
     color: white !important; }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 768px) {
   /* line 19, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
   #banner {
+    background-image: url("../images/banner2.jpg"); } }
+@media only screen and (max-width: 767px) {
+  /* line 25, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
+  #banner {
     background-image: url("../images/banner_phone.jpg"); } }
-/* line 25, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
+/* line 31, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
 #work-exemple {
   background-color: #E7E2DD; }
 
