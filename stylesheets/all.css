@@ -10,15 +10,10 @@
  * Bootstrap sass variable
  * (see http://getbootstrap.com/customize/#less-variables)
  * ------------------------------------- */
-/* line 1, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/config/_base.css.scss */
-html {
-  height: 100%; }
-
 /* line 5, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/config/_base.css.scss */
 body {
   color: #54626F;
-  font-weight: 100 !important;
-  height: 100%; }
+  font-weight: 100 !important; }
 
 /* line 12, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/config/_base.css.scss */
 .subhead-big {
