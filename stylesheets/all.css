@@ -9294,20 +9294,25 @@ button.close {
 /* line 1, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
 #banner {
   position: relative;
-  background: url("../images/banner.jpg") no-repeat center center fixed;
+  background: url("../images/banner2.jpg") no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center center;
   padding-top: 250px;
   padding-bottom: 250px;
   height: 100%;
   min-height: 500px; }
-  /* line 12, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
+  /* line 13, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
   #banner h1 {
     color: white !important; }
 
-/* line 18, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
+@media only screen and (max-width: 767px) {
+  /* line 19, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
+  #banner {
+    background-image: url("../images/banner_phone.jpg"); } }
+/* line 25, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
 #work-exemple {
   background-color: #E7E2DD; }
 
