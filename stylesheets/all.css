@@ -9296,26 +9296,24 @@ button.close {
 /* line 1, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
 #banner {
   position: relative;
-  background: url("../images/banner.jpg") no-repeat bottom center scroll;
+  background: url("../images/banner.jpg") no-repeat bottom center fixed;
   background-size: cover;
-  padding-top: 250px;
-  padding-bottom: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100%; }
-  /* line 14, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
+  /* line 17, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
   #banner h1 {
     color: white !important; }
 
-/* line 32, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
+/* line 35, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
 #work-exemple {
   background-color: #E7E2DD; }
 
 /* line 1, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
 .project-banner {
   position: relative;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   padding-top: 250px;
   padding-bottom: 250px;
   height: 100%;
