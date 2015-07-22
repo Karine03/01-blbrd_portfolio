@@ -10,12 +10,19 @@
  * Bootstrap sass variable
  * (see http://getbootstrap.com/customize/#less-variables)
  * ------------------------------------- */
-/* line 5, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/config/_base.css.scss */
+/* line 1, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/config/_base.css.scss */
+html {
+  width: 100%;
+  height: 100%; }
+
+/* line 6, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/config/_base.css.scss */
 body {
   color: #54626F;
-  font-weight: 100 !important; }
+  font-weight: 100 !important;
+  height: 100%;
+  width: 100%; }
 
-/* line 12, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/config/_base.css.scss */
+/* line 14, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/config/_base.css.scss */
 .subhead-big {
   font-size: 1.2em;
   font-weight: 500;
@@ -9289,29 +9296,17 @@ button.close {
 /* line 1, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
 #banner {
   position: relative;
-  background: no-repeat fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background: url("../images/banner.jpg") no-repeat bottom center scroll;
   background-size: cover;
-  background-position: center center;
   padding-top: 250px;
   padding-bottom: 250px;
-  height: 100%;
-  min-height: 500px; }
-  /* line 13, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
+  width: 100%;
+  height: 100%; }
+  /* line 14, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
   #banner h1 {
     color: white !important; }
 
-@media only screen and (min-width: 768px) {
-  /* line 19, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
-  #banner {
-    background-image: url("../images/banner2.jpg"); } }
-@media only screen and (max-width: 767px) {
-  /* line 25, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
-  #banner {
-    background-image: url("../images/banner_phone.jpg"); } }
-/* line 31, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
+/* line 32, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
 #work-exemple {
   background-color: #E7E2DD; }
 
