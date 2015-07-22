@@ -9306,6 +9306,10 @@ button.close {
   #banner h1 {
     color: white !important; }
 
+@media only screen and (max-width: 767px) {
+  /* line 30, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
+  #banner {
+    background: url("../images/banner.jpg") no-repeat bottom center scroll; } }
 /* line 36, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
 #work-exemple {
   background-color: #E7E2DD; }
