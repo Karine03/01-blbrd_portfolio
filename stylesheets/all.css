@@ -9306,7 +9306,7 @@ button.close {
   #banner h1 {
     color: white !important; }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1024px) {
   /* line 30, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
   #banner {
     background: url("../images/banner.jpg") no-repeat bottom center scroll; } }
@@ -9325,65 +9325,113 @@ button.close {
   background: url("../images/work/balloon/balloon-banner.jpg") no-repeat center center fixed;
   background-size: cover; }
 
-/* line 17, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
+@media only screen and (max-width: 1024px) {
+  /* line 18, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
+  #banner-balloon {
+    background: url("../images/work/balloon/balloon-banner.jpg") no-repeat center center scroll; } }
+/* line 24, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
 #banner-something {
   background: url("../images/work/something/something-banner.jpg") no-repeat center center fixed;
   background-size: cover; }
 
-/* line 22, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
+@media only screen and (max-width: 1024px) {
+  /* line 30, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
+  #banner-something {
+    background: url("../images/work/something/something-banner.jpg") no-repeat center center scroll; } }
+/* line 35, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
 #banner-prima {
   background: url("../images/work/prima/prima-banner.jpg") no-repeat center center fixed;
   background-size: cover; }
 
-/* line 27, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
+@media only screen and (max-width: 1024px) {
+  /* line 41, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
+  #banner-prima {
+    background: url("../images/work/prima/prima-banner.jpg") no-repeat center center scroll; } }
+/* line 46, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
 #banner-siaurac {
   background: url("../images/work/siaurac/siaurac-banner.jpg") no-repeat center center fixed;
   background-size: cover; }
 
-/* line 32, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
+@media only screen and (max-width: 1024px) {
+  /* line 52, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
+  #banner-siaurac {
+    background: url("../images/work/siaurac/siaurac-banner.jpg") no-repeat center center scroll; } }
+/* line 57, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
 #banner-requiem {
   background: url("../images/work/requiem/requiem-banner.jpg") no-repeat center center fixed;
   background-size: cover; }
 
-/* line 37, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
+@media only screen and (max-width: 1024px) {
+  /* line 63, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
+  #banner-requiem {
+    background: url("../images/work/requiem/requiem-banner.jpg") no-repeat center center scroll; } }
+/* line 68, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
 #banner-foodstore {
   background: url("../images/work/foodstore/foodstore-banner.jpg") no-repeat center center fixed;
   background-size: cover; }
 
-/* line 42, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
+@media only screen and (max-width: 1024px) {
+  /* line 74, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
+  #banner-foodstore {
+    background: url("../images/work/foodstore/foodstore-banner.jpg") no-repeat center center scroll; } }
+/* line 79, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
 #banner-ddhc {
   background: url("../images/work/ddhc/ddhc-banner.jpg") no-repeat center center fixed;
   background-size: cover; }
 
-/* line 47, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
+@media only screen and (max-width: 1024px) {
+  /* line 85, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
+  #banner-ddhc {
+    background: url("../images/work/ddhc/ddhc-banner.jpg") no-repeat center center scroll; } }
+/* line 90, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
 #banner-ddp {
   background: url("../images/work/ddp/ddp-banner.jpg") no-repeat center center fixed;
   background-size: cover; }
 
-/* line 52, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
+@media only screen and (max-width: 1024px) {
+  /* line 96, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
+  #banner-ddp {
+    background: url("../images/work/ddp/ddp-banner.jpg") no-repeat center center scroll; } }
+/* line 101, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
 #banner-egg {
   background: url("../images/work/egg/egg-banner.jpg") no-repeat center center fixed;
   background-size: cover; }
 
-/* line 57, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
+@media only screen and (max-width: 1024px) {
+  /* line 107, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
+  #banner-egg {
+    background: url("../images/work/egg/egg-banner.jpg") no-repeat center center scroll; } }
+/* line 112, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
 #banner-heinz {
   background: url("../images/work/heinz/heinz-banner.jpg") no-repeat center center fixed;
   background-size: cover; }
 
-/* line 62, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
+@media only screen and (max-width: 1024px) {
+  /* line 118, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
+  #banner-heinz {
+    background: url("../images/work/heinz/heinz-banner.jpg") no-repeat center center scroll; } }
+/* line 123, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
 #banner-lafourmi {
   background: url("../images/work/lafourmi/lafourmi-banner.jpg") no-repeat center center fixed;
   background-size: cover; }
 
-/* line 67, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
+@media only screen and (max-width: 1024px) {
+  /* line 129, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
+  #banner-lafourmi {
+    background: url("../images/work/lafourmi/lafourmi-banner.jpg") no-repeat center center scroll; } }
+/* line 134, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
 #banner-two {
   background: url("../images/work/two/two-banner.jpg") no-repeat center center fixed;
   background-size: cover; }
 
-/* line 76, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
+@media only screen and (max-width: 1024px) {
+  /* line 140, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
+  #banner-two {
+    background: url("../images/work/two/two-banner.jpg") no-repeat center center scroll; } }
+/* line 149, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
 #project {
   background-color: #E7E2DD; }
-  /* line 78, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
+  /* line 151, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
   #project p {
     padding-bottom: 2em; }
 
