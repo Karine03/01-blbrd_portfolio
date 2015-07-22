@@ -26,11 +26,11 @@
 //   }
 // }
 
-// @media only screen and (max-width: 767px) {
-//   #banner {
-//     background-image: image-url('banner_phone.jpg');
-//   }
-// }
+@media only screen and (max-width: 767px) {
+  #banner {
+    background: image-url('banner.jpg') no-repeat bottom center scroll;
+  }
+}
 
 
 #work-exemple {
