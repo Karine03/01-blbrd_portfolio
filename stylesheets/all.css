@@ -9296,7 +9296,7 @@ button.close {
 /* line 1, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
 #banner {
   position: relative;
-  background: url("../images/banner.jpg") no-repeat bottom center scroll;
+  background: url("../images/banner.jpg") no-repeat bottom center fixed;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 150px;
