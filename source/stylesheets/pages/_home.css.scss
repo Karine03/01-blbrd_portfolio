@@ -1,14 +1,17 @@
 #banner {
   position: relative;
-  background: image-url('banner.jpg') no-repeat bottom center scroll;
+  background: image-url('banner.jpg') no-repeat bottom center fixed;
   // -webkit-background-size: cover;
   // -moz-background-size: cover;
   // -o-background-size: cover;
   background-size: cover;
 
   // background-position: center center;
-  padding-top: 250px;
-  padding-bottom: 250px;
+  // padding-top: 250px;
+  // padding-bottom: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100%;
   h1 {
