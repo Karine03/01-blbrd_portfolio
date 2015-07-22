@@ -4,17 +4,19 @@ title: BLBRD - Portfolio
 
 
 
-<div id="work-exemple" class="padded text-center">
+<div id="work" class="padded text-center">
   <div class="container">
     <div class="row">
-      <% data.portfolio.each do |p| %>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <% link_to "/work/#{p.url}.html" do %>
-            <% image_url = "#{p.img_path}/#{p.thumbnail}" %>
-            <%= image_tag image_url, class: "img-medium img-padded" %>
-          <% end %>
-        </div>
-      <% end %>
+<!--       <div class="col-md-10 col-md-offset-1"> -->
+        <% data.portfolio.each do |p| %>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <% link_to "/work/#{p.url}.html" do %>
+              <% image_url = "#{p.img_path}/#{p.thumbnail}" %>
+              <%= image_tag image_url, class: "img-large img-padded" %>
+            <% end %>
+          </div>
+        <% end %>
+<!--       </div> -->
     </div>
   </div>
 </div>
