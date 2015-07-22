@@ -9130,11 +9130,15 @@ button.close {
   width: 250px; }
 
 /* line 74, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_utilities.css.scss */
+.img-large {
+  width: 300px; }
+
+/* line 78, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_utilities.css.scss */
 .img-padded {
   margin-top: 25px;
   margin-bottom: 25px; }
 
-/* line 80, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_utilities.css.scss */
+/* line 84, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_utilities.css.scss */
 .fadeInHome {
   animation: fadeInHome 0.5s 0.3s ease forwards;
   -moz-animation: fadeInHome 0.5s 0.3s ease forwards;
@@ -9157,7 +9161,7 @@ button.close {
     opacity: 0; }
   100% {
     opacity: 1; } }
-/* line 119, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_utilities.css.scss */
+/* line 123, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_utilities.css.scss */
 .fadeInArrow {
   animation: fadeInArrow 0.5s 0.5s ease forwards;
   -moz-animation: fadeInArrow 0.5s 0.5s ease forwards;
@@ -9190,6 +9194,10 @@ button.close {
   font-size: 60px;
   color: #2E2B2B; }
 
+@media only screen and (max-width: 768px) {
+  /* line 13, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_arrow.css.scss */
+  .scroll-btn {
+    color: transparent; } }
 /* line 1, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_button.css.scss */
 .btn {
   background-color: transparent; }
@@ -9312,6 +9320,10 @@ button.close {
     background: url("../images/banner.jpg") no-repeat bottom center scroll; } }
 /* line 36, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
 #work-exemple {
+  background-color: #E7E2DD; }
+
+/* line 40, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
+#work {
   background-color: #E7E2DD; }
 
 /* line 1, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
