@@ -9303,8 +9303,9 @@ button.close {
   position: relative;
   background: url("../images/banner.jpg") no-repeat bottom center fixed;
   background-size: cover;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100%; }
   /* line 18, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
@@ -9314,12 +9315,14 @@ button.close {
 @media only screen and (max-width: 1024px) {
   /* line 30, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
   #banner {
-    background: url("../images/banner.jpg") no-repeat bottom center scroll; } }
-/* line 36, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
+    background: url("../images/banner.jpg") no-repeat bottom center scroll;
+    padding-top: 150px;
+    padding-bottom: 150px; } }
+/* line 38, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
 #work-exemple {
   background-color: #E7E2DD; }
 
-/* line 40, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
+/* line 42, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
 #work {
   background-color: #E7E2DD; }
 
