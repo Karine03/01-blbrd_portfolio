@@ -5,6 +5,7 @@
   thumbnail: balloon-thumbnail.jpg
   bg_img: balloon-banner.jpg
   type: web design
+  category: web
   url: balloon
   link: http://www.theballoondiary.com/
   description: |
@@ -24,6 +25,7 @@
   thumbnail: something-thumbnail.jpg
   bg_img: something-banner.jpg
   type: branding - web design
+  category: web
   url: something
   link: http://www.something-mag.com/
   description: |
@@ -44,6 +46,7 @@
   thumbnail: siaurac-thumbnail.jpg
   bg_img: siaurac-banner.jpg
   type: branding - web design - editorial design - packaging
+  category: branding
   url: chateau_siaurac
   description: |
     Rebranding for <strong>Château Siaurac and Co</strong>,
@@ -74,6 +77,7 @@
   thumbnail: prima-thumbnail.jpg
   bg_img: prima-banner.jpg
   type: branding - web design
+  category: web
   url: prima
   description: |
       Prima Contract, a general contractor, wanted to
@@ -95,6 +99,7 @@
   thumbnail: foodstore-thumbnail.jpg
   bg_img: foodstore-banner.jpg
   type: branding - editorial design
+  category: branding
   url: foodstore
   description: |
     Branding for <strong>Foodstore and Partners</strong>,
@@ -120,6 +125,7 @@
   thumbnail: lafourmi-thumbnail.jpg
   bg_img: lafourmi-banner.jpg
   type: branding - web design
+  category: web
   url: lafourmi
   link: http://lafourmi-archi.com/accueil/
   description: |
@@ -142,6 +148,7 @@
   thumbnail: ddhc-thumbnail.jpg
   bg_img: ddhc-banner.jpg
   type: poster design
+  category: branding
   url: ddhc
   description: |
       Lorem ipsum dolor sit ame
@@ -162,6 +169,7 @@
   thumbnail: ddp-thumbnail.jpg
   bg_img: ddp-banner.jpg
   type: branding
+  category: branding
   url: ddp
   description: |
       Lorem ipsum dolor sit ame
@@ -183,6 +191,7 @@
   thumbnail: egg-thumbnail.jpg
   bg_img: egg-banner.jpg
   type: editiorial design
+  category: editorial
   url: egg
   description: |
       Lorem ipsum dolor sit ame
@@ -209,6 +218,7 @@
   thumbnail: heinz-thumbnail.jpg
   bg_img: heinz-banner.jpg
   type: editiorial design
+  category: editorial
   url: heinz
   description: |
       Lorem ipsum dolor sit ame
@@ -234,6 +244,7 @@
   thumbnail: two-thumbnail.jpg
   bg_img: two-banner.jpg
   type: photography - editiorial design
+  category: editorial
   url: two
   description: |
       Lorem ipsum dolor sit ame
@@ -259,6 +270,7 @@
   thumbnail: requiem-thumbnail.jpg
   bg_img: requiem-banner.jpg
   type: editiorial design
+  category: editorial
   url: requiem
   description: |
     Lorem ipsum dolor sit ame

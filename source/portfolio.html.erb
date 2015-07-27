@@ -37,6 +37,7 @@
         <%
           featured = data.portfolio[0...12]
           featured.delete_if{|item| item.name == project.name }
+          featured.delete_if{|item| item.category != project.category }
           featured.sample(3).each do |f| %>
 <!--       <div class="col-md-10 col-md-offset-1"> -->
 
