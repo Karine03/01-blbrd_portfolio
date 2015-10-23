@@ -1,11 +1,10 @@
 - id: lareserve
   name: La Réserve
-  img_path: work/lareserve
-  thumbnail: reserve-thumbnail.jpg
+  img_path: images/work/lareserve/reserve-thumbnail.jpg
   bg_img: reserve-banner.jpg
   type: web development - web design - UI/UX
   category: web
-  url: lareserve
+  url: /work/lareserve.html
   description: |
       La réserve is a table management software for restaurant. It help them
       organize their bookings, clients, table, employee etc.
@@ -14,12 +13,11 @@
       <br />
 - id: balloon
   name: The Balloon Diary
-  img_path: work/balloon
-  thumbnail: balloon-thumbnail.jpg
+  img_path: images/work/balloon/balloon-thumbnail.jpg
   bg_img: balloon-banner.jpg
   type: web design
   category: web
-  url: balloon
+  url: /work/balloon.html
   link: http://www.theballoondiary.com/
   description: |
       The Balloon Diary is a <strong>lifestyle and fashion blog</strong>,
@@ -34,12 +32,11 @@
     - balloon-2.jpg
 - id: something
   name: Something Magazine
-  img_path: work/something
-  thumbnail: something-thumbnail.jpg
+  img_path: images/work/something/something-thumbnail.jpg
   bg_img: something-banner.jpg
   type: branding - web design
   category: web
-  url: something
+  url: /work/something.html
   link: http://www.something-mag.com/
   description: |
       Something Magazine is a lifestyle blog,
@@ -55,12 +52,11 @@
     - something-3.jpg
 - id: siaurac
   name: Château Siaurac and Co
-  img_path: work/siaurac
-  thumbnail: siaurac-thumbnail.jpg
+  img_path: images/work/siaurac/siaurac-thumbnail.jpg
   bg_img: siaurac-banner.jpg
   type: branding - web design - editorial design - packaging
   category: branding
-  url: chateau_siaurac
+  url: /work/chateau_siaurac.html
   description: |
     Rebranding for <strong>Château Siaurac and Co</strong>,
     a french vineyard near Bordeaux.
@@ -92,12 +88,11 @@
     - siaurac-8.jpg
 - id: prima
   name: Prima
-  img_path: work/prima
-  thumbnail: prima-thumbnail.jpg
+  img_path: images/work/prima/prima-thumbnail.jpg
   bg_img: prima-banner.jpg
   type: branding - web design
   category: web
-  url: prima
+  url: /work/prima.html
   description: |
       Prima Contract, a general contractor, wanted to
       have a website to explain their business and show
@@ -114,12 +109,11 @@
     - prima-4.jpg
 - id: foodstore
   name: Foodstore and partners
-  img_path: work/foodstore
-  thumbnail: foodstore-thumbnail.jpg
+  img_path: images/work/foodstore/foodstore-thumbnail.jpg
   bg_img: foodstore-banner.jpg
   type: branding - editorial design
   category: branding
-  url: foodstore
+  url: /work/foodstore.html
   description: |
     Branding for <strong>Foodstore and Partners</strong>,
     expert in estate development specialised in streetfood restaurant.
@@ -140,12 +134,11 @@
     - foodstore-6.jpg
 - id: lafourmi
   name: La Fourmi
-  img_path: work/lafourmi
-  thumbnail: lafourmi-thumbnail.jpg
+  img_path: images/work/lafourmi/lafourmi-thumbnail.jpg
   bg_img: lafourmi-banner.jpg
   type: branding - web design
   category: web
-  url: lafourmi
+  url: /work/lafourmi.html
   link: http://lafourmi-archi.com/accueil/
   description: |
       Lorem ipsum dolor sit ame
@@ -163,12 +156,11 @@
     - lafourmi-3.jpg
 - id: ddhc
   name: Declaration of Human Right
-  img_path: work/ddhc
-  thumbnail: ddhc-thumbnail.jpg
+  img_path: images/work/ddhc/ddhc-thumbnail.jpg
   bg_img: ddhc-banner.jpg
   type: poster design
   category: branding
-  url: ddhc
+  url: /work/ddhc.html
   description: |
       Lorem ipsum dolor sit ame
       onsectetur adipisicing elit. Labore tenetur
@@ -184,12 +176,11 @@
   - ddhc-2.jpg
 - id: ddp
   name: Défilé des primeurs
-  img_path: work/ddp
-  thumbnail: ddp-thumbnail.jpg
+  img_path: images/work/ddp/ddp-thumbnail.jpg
   bg_img: ddp-banner.jpg
   type: branding
   category: branding
-  url: ddp
+  url: /work/ddp.html
   description: |
       Lorem ipsum dolor sit ame
       onsectetur adipisicing elit. Labore tenetur
@@ -206,12 +197,11 @@
   - ddp-3.jpg
 - id: egg
   name: Egg Magazine
-  img_path: work/egg
-  thumbnail: egg-thumbnail.jpg
+  img_path: images/work/egg/egg-thumbnail.jpg
   bg_img: egg-banner.jpg
   type: editiorial design
   category: editorial
-  url: egg
+  url: /work/egg.html
   description: |
       Lorem ipsum dolor sit ame
       onsectetur adipisicing elit. Labore tenetur
@@ -233,12 +223,11 @@
     - egg-8.jpg
 - id: heinz
   name: Heinz
-  img_path: work/heinz
-  thumbnail: heinz-thumbnail.jpg
+  img_path: images/work/heinz/heinz-thumbnail.jpg
   bg_img: heinz-banner.jpg
   type: editiorial design
   category: editorial
-  url: heinz
+  url: /work/heinz.html
   description: |
       Lorem ipsum dolor sit ame
       onsectetur adipisicing elit. Labore tenetur
@@ -259,12 +248,11 @@
     - heinz-8.jpg
 - id: two
   name: Two
-  img_path: work/two
-  thumbnail: two-thumbnail.jpg
+  img_path: images/work/two/two-thumbnail.jpg
   bg_img: two-banner.jpg
   type: photography - editiorial design
   category: editorial
-  url: two
+  url: /work/two.html
   description: |
       Lorem ipsum dolor sit ame
       onsectetur adipisicing elit. Labore tenetur
@@ -285,12 +273,11 @@
     - two-9.jpg
 - id: requiem
   name: Requiem
-  img_path: work/requiem
-  thumbnail: requiem-thumbnail.jpg
+  img_path: images/work/requiem/requiem-thumbnail.jpg
   bg_img: requiem-banner.jpg
   type: editiorial design
   category: editorial
-  url: requiem
+  url: /work/requiem.html
   description: |
     Lorem ipsum dolor sit ame
     onsectetur adipisicing elit. Labore tenetur
