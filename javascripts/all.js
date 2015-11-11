@@ -12106,16 +12106,16 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
 
 $(document).ready(function() {
   // navbar transition jQuery script
+  $(".navbar").hide();
   $(window).scroll(function(e){
     if ($(this).scrollTop() > 0) {
-      $(".navbar").css({
-        "background": "rgba(255, 255, 255, 1)"
-      });
+      $(".navbar").show();
+      // $(".navbar").css({
+      //   "background": "rgba(255, 255, 255, 1)"
+      // });
     }
     else {
-      $(".navbar").css({
-        "background": "transparent"
-      });
+      $(".navbar").hide();
     }
   });
 });

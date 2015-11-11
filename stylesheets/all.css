@@ -22,12 +22,6 @@ body {
   height: 100%;
   width: 100%; }
 
-/* line 14, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/config/_base.css.scss */
-.subhead-big {
-  font-size: 1.2em;
-  font-weight: 500;
-  color: #2E2B2B; }
-
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /* line 9, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_normalize.scss */
 html {
@@ -8949,7 +8943,7 @@ button.close {
  * ------------------------------------- */
 /* line 38, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_navbar.css.scss */
 .navbar-wagon {
-  background: transparent;
+  background: white;
   font-family: "Roboto Condensed", "sans-serif";
   border: none;
   font-weight: 400;
@@ -9198,6 +9192,40 @@ button.close {
   /* line 13, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_arrow.css.scss */
   .scroll-btn {
     color: transparent; } }
+/* line 1, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_banner.css.scss */
+#banner {
+  background-size: cover;
+  background: no-repeat top center;
+  color: white;
+  position: relative;
+  z-index: 0;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  @media only screen and (992px) {
+    /* line 1, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_banner.css.scss */
+    #banner {
+      background: no-repeat bottom center scroll;
+      padding-top: 150px;
+      padding-bottom: 150px; } }
+  @media (max-width: 992px) {
+    /* line 19, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_banner.css.scss */
+    #banner h1 {
+      font-size: 2.2em; } }
+  @media (max-width: 768px) {
+    /* line 19, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_banner.css.scss */
+    #banner h1 {
+      font-size: 2em; } }
+  /* line 23, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_banner.css.scss */
+  #banner .subhead-big {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #2E2B2B; }
+
 /* line 1, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_button.css.scss */
 .btn {
   background-color: transparent; }
@@ -9231,6 +9259,50 @@ button.close {
   /* line 30, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_button.css.scss */
   .btn-lg, .btn-group-lg > .btn {
     margin-top: 30px; }
+
+/* line 1, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_features.scss */
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center; }
+
+/* line 8, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_features.scss */
+.feature-container {
+  position: relative;
+  background-size: cover;
+  display: flex;
+  flex-flow: column;
+  padding: 15px;
+  flex: 0 0 25%; }
+  @media (max-width: 992px) {
+    /* line 8, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_features.scss */
+    .feature-container {
+      flex: 0 0 50%; } }
+  @media (max-width: 480px) {
+    /* line 8, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_features.scss */
+    .feature-container {
+      flex: 0 0 100%; } }
+  /* line 18, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_features.scss */
+  .feature-container img {
+    margin: auto; }
+
+/* line 23, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_features.scss */
+.feature-url {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 4; }
+
+/* line 32, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_features.scss */
+.feature-item {
+  width: 100%; }
+
+/* line 37, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_features.scss */
+.feature-item-thumbnail img {
+  width: 100%; }
 
 /* Overline Reveal */
 /* line 3, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_overline.css.scss */
@@ -9269,6 +9341,87 @@ button.close {
   -webkit-transform: translateY(0);
   transform: translateY(0); }
 
+/* line 1, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_services.css.scss */
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start; }
+
+/* line 7, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_services.css.scss */
+.service-container {
+  background-size: cover;
+  display: flex;
+  flex-flow: column;
+  padding: 15px;
+  flex: 0 0 25%; }
+  @media (max-width: 992px) {
+    /* line 7, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_services.css.scss */
+    .service-container {
+      flex: 0 0 50%; } }
+  @media (max-width: 480px) {
+    /* line 7, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_services.css.scss */
+    .service-container {
+      flex: 0 0 100%; } }
+  /* line 16, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_services.css.scss */
+  .service-container img {
+    margin: auto; }
+
+/* line 1, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_work.scss */
+#work-exemple {
+  background-color: #E7E2DD; }
+  @media (max-width: 480px) {
+    /* line 3, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_work.scss */
+    #work-exemple .btn {
+      width: 100%; } }
+
+/* line 10, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_work.scss */
+#work {
+  background-color: #E7E2DD; }
+
+/* line 14, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_work.scss */
+.works {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center; }
+
+/* line 21, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_work.scss */
+.work-container {
+  position: relative;
+  background-size: cover;
+  display: flex;
+  flex-flow: column;
+  padding: 15px;
+  flex: 0 0 25%; }
+  @media (max-width: 992px) {
+    /* line 21, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_work.scss */
+    .work-container {
+      flex: 0 0 50%; } }
+  @media (max-width: 480px) {
+    /* line 21, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_work.scss */
+    .work-container {
+      flex: 0 0 100%; } }
+  /* line 31, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_work.scss */
+  .work-container img {
+    margin: auto; }
+
+/* line 36, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_work.scss */
+.work-url {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 4; }
+
+/* line 45, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_work.scss */
+.work-item {
+  width: 100%; }
+
+/* line 50, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_work.scss */
+.work-item-thumbnail img {
+  width: 100%; }
+
 /* line 1, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_about.css.scss */
 #about {
   position: relative;
@@ -9298,154 +9451,15 @@ button.close {
   height: 100%;
   min-height: 500px; }
 
-/* line 1, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
-#banner {
-  position: relative;
-  background: url("../images/banner.jpg") no-repeat bottom center fixed;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%; }
-  /* line 18, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
-  #banner h1 {
-    color: white !important; }
-
-@media only screen and (max-width: 1024px) {
-  /* line 30, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
-  #banner {
-    background: url("../images/banner.jpg") no-repeat bottom center scroll;
-    padding-top: 150px;
-    padding-bottom: 150px; } }
-/* line 38, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
-#work-exemple {
-  background-color: #E7E2DD; }
-
-/* line 42, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_home.css.scss */
-#work {
-  background-color: #E7E2DD; }
-
-/* line 1, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
-.project-banner {
-  position: relative;
-  height: 100%;
-  min-height: 500px; }
-
-/* line 12, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
-#banner-balloon {
-  background: url("../images/work/balloon/balloon-banner.jpg") no-repeat center center fixed;
-  background-size: cover; }
-
-@media only screen and (max-width: 1024px) {
-  /* line 18, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
-  #banner-balloon {
-    background: url("../images/work/balloon/balloon-banner.jpg") no-repeat center center scroll; } }
-/* line 24, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
-#banner-something {
-  background: url("../images/work/something/something-banner.jpg") no-repeat center center fixed;
-  background-size: cover; }
-
-@media only screen and (max-width: 1024px) {
-  /* line 30, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
-  #banner-something {
-    background: url("../images/work/something/something-banner.jpg") no-repeat center center scroll; } }
-/* line 35, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
-#banner-prima {
-  background: url("../images/work/prima/prima-banner.jpg") no-repeat center center fixed;
-  background-size: cover; }
-
-@media only screen and (max-width: 1024px) {
-  /* line 41, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
-  #banner-prima {
-    background: url("../images/work/prima/prima-banner.jpg") no-repeat center center scroll; } }
-/* line 46, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
-#banner-siaurac {
-  background: url("../images/work/siaurac/siaurac-banner.jpg") no-repeat center center fixed;
-  background-size: cover; }
-
-@media only screen and (max-width: 1024px) {
-  /* line 52, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
-  #banner-siaurac {
-    background: url("../images/work/siaurac/siaurac-banner.jpg") no-repeat center center scroll; } }
-/* line 57, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
-#banner-requiem {
-  background: url("../images/work/requiem/requiem-banner.jpg") no-repeat center center fixed;
-  background-size: cover; }
-
-@media only screen and (max-width: 1024px) {
-  /* line 63, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
-  #banner-requiem {
-    background: url("../images/work/requiem/requiem-banner.jpg") no-repeat center center scroll; } }
-/* line 68, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
-#banner-foodstore {
-  background: url("../images/work/foodstore/foodstore-banner.jpg") no-repeat center center fixed;
-  background-size: cover; }
-
-@media only screen and (max-width: 1024px) {
-  /* line 74, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
-  #banner-foodstore {
-    background: url("../images/work/foodstore/foodstore-banner.jpg") no-repeat center center scroll; } }
-/* line 79, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
-#banner-ddhc {
-  background: url("../images/work/ddhc/ddhc-banner.jpg") no-repeat center center fixed;
-  background-size: cover; }
-
-@media only screen and (max-width: 1024px) {
-  /* line 85, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
-  #banner-ddhc {
-    background: url("../images/work/ddhc/ddhc-banner.jpg") no-repeat center center scroll; } }
-/* line 90, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
-#banner-ddp {
-  background: url("../images/work/ddp/ddp-banner.jpg") no-repeat center center fixed;
-  background-size: cover; }
-
-@media only screen and (max-width: 1024px) {
-  /* line 96, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
-  #banner-ddp {
-    background: url("../images/work/ddp/ddp-banner.jpg") no-repeat center center scroll; } }
-/* line 101, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
-#banner-egg {
-  background: url("../images/work/egg/egg-banner.jpg") no-repeat center center fixed;
-  background-size: cover; }
-
-@media only screen and (max-width: 1024px) {
-  /* line 107, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
-  #banner-egg {
-    background: url("../images/work/egg/egg-banner.jpg") no-repeat center center scroll; } }
-/* line 112, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
-#banner-heinz {
-  background: url("../images/work/heinz/heinz-banner.jpg") no-repeat center center fixed;
-  background-size: cover; }
-
-@media only screen and (max-width: 1024px) {
-  /* line 118, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
-  #banner-heinz {
-    background: url("../images/work/heinz/heinz-banner.jpg") no-repeat center center scroll; } }
-/* line 123, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
-#banner-lafourmi {
-  background: url("../images/work/lafourmi/lafourmi-banner.jpg") no-repeat center center fixed;
-  background-size: cover; }
-
-@media only screen and (max-width: 1024px) {
-  /* line 129, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
-  #banner-lafourmi {
-    background: url("../images/work/lafourmi/lafourmi-banner.jpg") no-repeat center center scroll; } }
-/* line 134, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
-#banner-two {
-  background: url("../images/work/two/two-banner.jpg") no-repeat center center fixed;
-  background-size: cover; }
-
-@media only screen and (max-width: 1024px) {
-  /* line 140, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
-  #banner-two {
-    background: url("../images/work/two/two-banner.jpg") no-repeat center center scroll; } }
 /* line 149, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
 #project {
   background-color: #E7E2DD; }
   /* line 151, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
   #project p {
     padding-bottom: 2em; }
+  /* line 154, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/pages/_portfolio.css.scss */
+  #project img {
+    margin: 25px auto; }
 
 /*
 ==============================================
