@@ -44,6 +44,9 @@ end
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
+  require "better_errors"
+  use BetterErrors::Middleware
+  BetterErrors.application_root = __dir__
 end
 
 # Methods defined in the helpers block are available in templates
