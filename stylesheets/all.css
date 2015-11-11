@@ -133,7 +133,6 @@ figure {
 
 /* line 211, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_normalize.scss */
 hr {
-  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0; }
 
@@ -205,8 +204,6 @@ input[type="number"]::-webkit-outer-spin-button {
 /* line 357, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   box-sizing: content-box; }
 
 /* line 370, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_normalize.scss */
@@ -1151,15 +1148,11 @@ th {
 
 /* line 11, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_scaffolding.scss */
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
 /* line 14, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_scaffolding.scss */
 *:before,
 *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
 /* line 22, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_scaffolding.scss */
@@ -1224,7 +1217,6 @@ img {
   border: 1px solid #ddd;
   border-radius: 2px;
   -webkit-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   display: inline-block;
   max-width: 100%;
@@ -2844,8 +2836,6 @@ label {
 
 /* line 47, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_forms.scss */
 input[type="search"] {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
 /* line 52, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_forms.scss */
@@ -2898,16 +2888,13 @@ output {
   background-image: none;
   border: 1px solid #ccc;
   border-radius: 2px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; }
   /* line 57, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_forms.scss */
   .form-control:focus {
     border-color: #66afe9;
     outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); }
   /* line 103, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss */
   .form-control::-moz-placeholder {
@@ -3160,12 +3147,10 @@ select[multiple].input-lg,
 /* line 21, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_forms.scss */
 .has-success .form-control {
   border-color: #3c763d;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
   /* line 24, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_forms.scss */
   .has-success .form-control:focus {
     border-color: #2b542c;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168; }
 /* line 31, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_forms.scss */
 .has-success .input-group-addon {
@@ -3187,12 +3172,10 @@ select[multiple].input-lg,
 /* line 21, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_forms.scss */
 .has-warning .form-control {
   border-color: #8a6d3b;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
   /* line 24, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_forms.scss */
   .has-warning .form-control:focus {
     border-color: #66512c;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b; }
 /* line 31, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_forms.scss */
 .has-warning .input-group-addon {
@@ -3214,12 +3197,10 @@ select[multiple].input-lg,
 /* line 21, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_forms.scss */
 .has-error .form-control {
   border-color: #a94442;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
   /* line 24, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_forms.scss */
   .has-error .form-control:focus {
     border-color: #843534;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483; }
 /* line 31, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_forms.scss */
 .has-error .input-group-addon {
@@ -3342,7 +3323,8 @@ select[multiple].input-lg,
   font-weight: normal;
   text-align: center;
   vertical-align: middle;
-  touch-action: manipulation;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
   cursor: pointer;
   background-image: none;
   border: 1px solid transparent;
@@ -3368,7 +3350,6 @@ select[multiple].input-lg,
   .btn:active, .btn.active {
     outline: 0;
     background-image: none;
-    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
   /* line 46, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_buttons.scss */
   .btn.disabled, .btn[disabled], fieldset[disabled] .btn {
@@ -3376,7 +3357,6 @@ select[multiple].input-lg,
     pointer-events: none;
     opacity: 0.65;
     filter: alpha(opacity=65);
-    -webkit-box-shadow: none;
     box-shadow: none; }
 
 /* line 60, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_buttons.scss */
@@ -3519,7 +3499,6 @@ select[multiple].input-lg,
   /* line 93, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_buttons.scss */
   .btn-link, .btn-link:active, .btn-link.active, .btn-link[disabled], fieldset[disabled] .btn-link {
     background-color: transparent;
-    -webkit-box-shadow: none;
     box-shadow: none; }
   /* line 101, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_buttons.scss */
   .btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
@@ -3574,7 +3553,6 @@ input[type="button"].btn-block {
 .fade {
   opacity: 0;
   -webkit-transition: opacity 0.15s linear;
-  -o-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear; }
   /* line 13, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_component-animations.scss */
   .fade.in {
@@ -3646,7 +3624,6 @@ tbody.collapse.in {
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 2px;
-  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   background-clip: padding-box; }
   /* line 52, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_dropdowns.scss */
@@ -3855,11 +3832,9 @@ tbody.collapse.in {
 
 /* line 115, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_button-groups.scss */
 .btn-group.open .dropdown-toggle {
-  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
   /* line 119, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_button-groups.scss */
   .btn-group.open .dropdown-toggle.btn-link {
-    -webkit-box-shadow: none;
     box-shadow: none; }
 
 /* line 126, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_button-groups.scss */
@@ -4459,7 +4434,6 @@ tbody.collapse.in {
   padding: 10px 15px;
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
   margin-top: 7.5px;
   margin-bottom: 7.5px; }
@@ -4528,7 +4502,6 @@ tbody.collapse.in {
       margin-right: 0;
       padding-top: 0;
       padding-bottom: 0;
-      -webkit-box-shadow: none;
       box-shadow: none; } }
 
 /* line 328, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navbar.scss */
@@ -5060,7 +5033,6 @@ a.badge:hover, a.badge:focus {
   border: 1px solid #ddd;
   border-radius: 2px;
   -webkit-transition: border 0.2s ease-in-out;
-  -o-transition: border 0.2s ease-in-out;
   transition: border 0.2s ease-in-out; }
   /* line 17, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_thumbnails.scss */
   .thumbnail > img,
@@ -5179,7 +5151,6 @@ a.thumbnail.active {
   margin-bottom: 21px;
   background-color: #f5f5f5;
   border-radius: 2px;
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); }
 
 /* line 36, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_progress-bars.scss */
@@ -5192,17 +5163,14 @@ a.thumbnail.active {
   color: #fff;
   text-align: center;
   background-color: #FF6D5E;
-  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
-  -o-transition: width 0.6s ease;
   transition: width 0.6s ease; }
 
 /* line 54, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_progress-bars.scss */
 .progress-striped .progress-bar,
 .progress-bar-striped {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-size: 40px 40px; }
 
@@ -5210,7 +5178,6 @@ a.thumbnail.active {
 .progress.active .progress-bar,
 .progress-bar.active {
   -webkit-animation: progress-bar-stripes 2s linear infinite;
-  -o-animation: progress-bar-stripes 2s linear infinite;
   animation: progress-bar-stripes 2s linear infinite; }
 
 /* line 73, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_progress-bars.scss */
@@ -5219,7 +5186,6 @@ a.thumbnail.active {
   /* line 7, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_progress-bar.scss */
   .progress-striped .progress-bar-success {
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
     background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent); }
 
 /* line 77, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_progress-bars.scss */
@@ -5228,7 +5194,6 @@ a.thumbnail.active {
   /* line 7, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_progress-bar.scss */
   .progress-striped .progress-bar-info {
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
     background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent); }
 
 /* line 81, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_progress-bars.scss */
@@ -5237,7 +5202,6 @@ a.thumbnail.active {
   /* line 7, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_progress-bar.scss */
   .progress-striped .progress-bar-warning {
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
     background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent); }
 
 /* line 85, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_progress-bars.scss */
@@ -5246,7 +5210,6 @@ a.thumbnail.active {
   /* line 7, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_progress-bar.scss */
   .progress-striped .progress-bar-danger {
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
     background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent); }
 
 /* line 1, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_media.scss */
@@ -5456,7 +5419,6 @@ a.list-group-item-danger {
   background-color: #fff;
   border: 1px solid transparent;
   border-radius: 2px;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05); }
 
 /* line 16, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_panels.scss */
@@ -5843,7 +5805,6 @@ a.list-group-item-danger {
   background-color: #f5f5f5;
   border: 1px solid #e3e3e3;
   border-radius: 2px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05); }
   /* line 15, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_wells.scss */
   .well blockquote {
@@ -5906,17 +5867,13 @@ button.close {
   .modal.fade .modal-dialog {
     -webkit-transform: translate(0, -25%);
     -ms-transform: translate(0, -25%);
-    -o-transform: translate(0, -25%);
     transform: translate(0, -25%);
     -webkit-transition: -webkit-transform 0.3s ease-out;
-    -moz-transition: -moz-transform 0.3s ease-out;
-    -o-transition: -o-transform 0.3s ease-out;
     transition: transform 0.3s ease-out; }
   /* line 36, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_modals.scss */
   .modal.in .modal-dialog {
     -webkit-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
-    -o-transform: translate(0, 0);
     transform: translate(0, 0); }
 
 /* line 38, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_modals.scss */
@@ -5937,7 +5894,6 @@ button.close {
   border: 1px solid #999;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 2px;
-  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   background-clip: padding-box;
   outline: 0; }
@@ -6017,7 +5973,6 @@ button.close {
 
   /* line 138, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_modals.scss */
   .modal-content {
-    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); }
 
   /* line 143, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_modals.scss */
@@ -6154,7 +6109,6 @@ button.close {
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 2px;
-  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   white-space: normal; }
   /* line 31, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_popovers.scss */
@@ -6276,7 +6230,6 @@ button.close {
     display: none;
     position: relative;
     -webkit-transition: 0.6s ease-in-out left;
-    -o-transition: 0.6s ease-in-out left;
     transition: 0.6s ease-in-out left; }
     /* line 22, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_carousel.scss */
     .carousel-inner > .item > img,
@@ -6288,20 +6241,26 @@ button.close {
     @media all and (transform-3d), (-webkit-transform-3d) {
       /* line 16, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_carousel.scss */
       .carousel-inner > .item {
-        transition: transform .6s ease-in-out;
-        backface-visibility: hidden;
-        perspective: 1000; }
+        -webkit-transition: -webkit-transform .6s ease-in-out;
+                transition: transform .6s ease-in-out;
+        -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+        -webkit-perspective: 1000;
+                perspective: 1000; }
         /* line 34, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_carousel.scss */
         .carousel-inner > .item.next, .carousel-inner > .item.active.right {
-          transform: translate3d(100%, 0, 0);
+          -webkit-transform: translate3d(100%, 0, 0);
+                  transform: translate3d(100%, 0, 0);
           left: 0; }
         /* line 39, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_carousel.scss */
         .carousel-inner > .item.prev, .carousel-inner > .item.active.left {
-          transform: translate3d(-100%, 0, 0);
+          -webkit-transform: translate3d(-100%, 0, 0);
+                  transform: translate3d(-100%, 0, 0);
           left: 0; }
         /* line 44, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_carousel.scss */
         .carousel-inner > .item.next.left, .carousel-inner > .item.prev.right, .carousel-inner > .item.active {
-          transform: translate3d(0, 0, 0);
+          -webkit-transform: translate3d(0, 0, 0);
+                  transform: translate3d(0, 0, 0);
           left: 0; } }
   /* line 53, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_carousel.scss */
   .carousel-inner > .active,
@@ -6350,7 +6309,6 @@ button.close {
   /* line 108, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_carousel.scss */
   .carousel-control.left {
     background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
-    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1); }
@@ -6359,7 +6317,6 @@ button.close {
     left: auto;
     right: 0;
     background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
-    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1); }
@@ -6892,7 +6849,8 @@ button.close {
 :root .fa-rotate-270,
 :root .fa-flip-horizontal,
 :root .fa-flip-vertical {
-  filter: none; }
+  -webkit-filter: none;
+          filter: none; }
 
 /* line 4, /Users/karinebialobroda/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/font-awesome-sass-4.2.2/assets/stylesheets/font-awesome/_stacked.scss */
 .fa-stack {
@@ -8951,7 +8909,8 @@ button.close {
   padding-right: 20px;
   border-bottom: 0 solid #FF6D5E;
   min-height: 0;
-  transition: background 0.4s ease; }
+  -webkit-transition: background 0.4s ease;
+          transition: background 0.4s ease; }
   /* line 49, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > a,
   .navbar-wagon .navbar-nav > .open > a,
@@ -8964,8 +8923,6 @@ button.close {
     padding-bottom: 5px;
     background-color: transparent;
     -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
   /* line 65, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > a:hover,
@@ -9033,7 +8990,9 @@ button.close {
     left: 50%;
     margin-left: 55px;
     top: -5px;
-    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
     border-top: 1px solid #e6e6e6;
     border-left: 1px solid #e6e6e6;
     z-index: -1; }
@@ -9138,7 +9097,9 @@ button.close {
   -moz-animation: fadeInHome 0.5s 0.3s ease forwards;
   -webkit-animation: fadeInHome 0.5s 0.3s ease forwards;
   opacity: 0;
-  transform: translateY(-20px); }
+  -webkit-transform: translateY(-20px);
+      -ms-transform: translateY(-20px);
+          transform: translateY(-20px); }
 
 @keyframes fadeInHome {
   0% {
@@ -9146,11 +9107,6 @@ button.close {
   100% {
     opacity: 1; } }
 @-webkit-keyframes fadeInHome {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@-moz-keyframes fadeInHome {
   0% {
     opacity: 0; }
   100% {
@@ -9168,11 +9124,6 @@ button.close {
   100% {
     opacity: 1; } }
 @-webkit-keyframes fadeInArrow {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@-moz-keyframes fadeInArrow {
   0% {
     opacity: 0; }
   100% {
@@ -9203,9 +9154,18 @@ button.close {
   width: 100%;
   height: 100%;
   min-height: 500px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center; }
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
   @media only screen and (992px) {
     /* line 1, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_banner.css.scss */
     #banner {
@@ -9262,27 +9222,52 @@ button.close {
 
 /* line 1, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_features.scss */
 .features {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: center; }
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 /* line 8, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_features.scss */
 .feature-container {
   position: relative;
   background-size: cover;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: column;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
   padding: 15px;
-  flex: 0 0 25%; }
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 25%;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%; }
   @media (max-width: 992px) {
     /* line 8, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_features.scss */
     .feature-container {
-      flex: 0 0 50%; } }
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 50%;
+          -ms-flex: 0 0 50%;
+              flex: 0 0 50%; } }
   @media (max-width: 480px) {
     /* line 8, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_features.scss */
     .feature-container {
-      flex: 0 0 100%; } }
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 100%;
+          -ms-flex: 0 0 100%;
+              flex: 0 0 100%; } }
   /* line 18, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_features.scss */
   .feature-container img {
     margin: auto; }
@@ -9328,8 +9313,9 @@ button.close {
   background: #FF6D5E;
   height: 4px;
   -webkit-transform: translateY(-4px);
-  transform: translateY(-4px);
-  -webkit-transition-property: transform;
+  -ms-transform: translateY(-4px);
+      transform: translateY(-4px);
+  -webkit-transition-property: -webkit-transform;
   transition-property: transform;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
@@ -9339,29 +9325,52 @@ button.close {
 /* line 33, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_overline.css.scss */
 .hvr-overline-reveal:hover:before, .hvr-overline-reveal:focus:before, .hvr-overline-reveal:active:before {
   -webkit-transform: translateY(0);
-  transform: translateY(0); }
+  -ms-transform: translateY(0);
+      transform: translateY(0); }
 
 /* line 1, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_services.css.scss */
 .services {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start; }
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
 
 /* line 7, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_services.css.scss */
 .service-container {
   background-size: cover;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: column;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
   padding: 15px;
-  flex: 0 0 25%; }
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 25%;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%; }
   @media (max-width: 992px) {
     /* line 7, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_services.css.scss */
     .service-container {
-      flex: 0 0 50%; } }
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 50%;
+          -ms-flex: 0 0 50%;
+              flex: 0 0 50%; } }
   @media (max-width: 480px) {
     /* line 7, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_services.css.scss */
     .service-container {
-      flex: 0 0 100%; } }
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 100%;
+          -ms-flex: 0 0 100%;
+              flex: 0 0 100%; } }
   /* line 16, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_services.css.scss */
   .service-container img {
     margin: auto; }
@@ -9380,27 +9389,52 @@ button.close {
 
 /* line 14, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_work.scss */
 .works {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: center; }
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 /* line 21, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_work.scss */
 .work-container {
   position: relative;
   background-size: cover;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: column;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
   padding: 15px;
-  flex: 0 0 25%; }
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 25%;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%; }
   @media (max-width: 992px) {
     /* line 21, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_work.scss */
     .work-container {
-      flex: 0 0 50%; } }
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 50%;
+          -ms-flex: 0 0 50%;
+              flex: 0 0 50%; } }
   @media (max-width: 480px) {
     /* line 21, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_work.scss */
     .work-container {
-      flex: 0 0 100%; } }
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 100%;
+          -ms-flex: 0 0 100%;
+              flex: 0 0 100%; } }
   /* line 31, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_work.scss */
   .work-container img {
     margin: auto; }
@@ -9434,17 +9468,12 @@ button.close {
   position: relative;
   background: -webkit-linear-gradient(90deg, #ECE9E6 10%, #FFFFFF 90%);
   /* Chrome 10+, Saf5.1+ */
-  background: -moz-linear-gradient(90deg, #ECE9E6 10%, #FFFFFF 90%);
   /* FF3.6+ */
-  background: -ms-linear-gradient(90deg, #ECE9E6 10%, #FFFFFF 90%);
   /* IE10 */
-  background: -o-linear-gradient(90deg, #ECE9E6 10%, #FFFFFF 90%);
   /* Opera 11.10+ */
+  background: -webkit-linear-gradient(0deg, #ECE9E6 10%, #FFFFFF 90%);
   background: linear-gradient(90deg, #ECE9E6 10%, #FFFFFF 90%);
   /* W3C */
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   padding-top: 250px;
   padding-bottom: 250px;
@@ -9491,17 +9520,23 @@ slideDown
 
 @keyframes slideDown {
   0% {
-    transform: translateY(-100%); }
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%); }
   50% {
-    transform: translateY(8%); }
+    -webkit-transform: translateY(8%);
+            transform: translateY(8%); }
   65% {
-    transform: translateY(-4%); }
+    -webkit-transform: translateY(-4%);
+            transform: translateY(-4%); }
   80% {
-    transform: translateY(4%); }
+    -webkit-transform: translateY(4%);
+            transform: translateY(4%); }
   95% {
-    transform: translateY(-2%); }
+    -webkit-transform: translateY(-2%);
+            transform: translateY(-2%); }
   100% {
-    transform: translateY(0%); } }
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%); } }
 @-webkit-keyframes slideDown {
   0% {
     -webkit-transform: translateY(-100%); }
@@ -9532,17 +9567,23 @@ slideUp
 
 @keyframes slideUp {
   0% {
-    transform: translateY(100%); }
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%); }
   50% {
-    transform: translateY(-8%); }
+    -webkit-transform: translateY(-8%);
+            transform: translateY(-8%); }
   65% {
-    transform: translateY(4%); }
+    -webkit-transform: translateY(4%);
+            transform: translateY(4%); }
   80% {
-    transform: translateY(-4%); }
+    -webkit-transform: translateY(-4%);
+            transform: translateY(-4%); }
   95% {
-    transform: translateY(2%); }
+    -webkit-transform: translateY(2%);
+            transform: translateY(2%); }
   100% {
-    transform: translateY(0%); } }
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%); } }
 @-webkit-keyframes slideUp {
   0% {
     -webkit-transform: translateY(100%); }
@@ -9573,17 +9614,23 @@ slideLeft
 
 @keyframes slideLeft {
   0% {
-    transform: translateX(150%); }
+    -webkit-transform: translateX(150%);
+            transform: translateX(150%); }
   50% {
-    transform: translateX(-8%); }
+    -webkit-transform: translateX(-8%);
+            transform: translateX(-8%); }
   65% {
-    transform: translateX(4%); }
+    -webkit-transform: translateX(4%);
+            transform: translateX(4%); }
   80% {
-    transform: translateX(-4%); }
+    -webkit-transform: translateX(-4%);
+            transform: translateX(-4%); }
   95% {
-    transform: translateX(2%); }
+    -webkit-transform: translateX(2%);
+            transform: translateX(2%); }
   100% {
-    transform: translateX(0%); } }
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%); } }
 @-webkit-keyframes slideLeft {
   0% {
     -webkit-transform: translateX(150%); }
@@ -9614,17 +9661,23 @@ slideRight
 
 @keyframes slideRight {
   0% {
-    transform: translateX(-150%); }
+    -webkit-transform: translateX(-150%);
+            transform: translateX(-150%); }
   50% {
-    transform: translateX(8%); }
+    -webkit-transform: translateX(8%);
+            transform: translateX(8%); }
   65% {
-    transform: translateX(-4%); }
+    -webkit-transform: translateX(-4%);
+            transform: translateX(-4%); }
   80% {
-    transform: translateX(4%); }
+    -webkit-transform: translateX(4%);
+            transform: translateX(4%); }
   95% {
-    transform: translateX(-2%); }
+    -webkit-transform: translateX(-2%);
+            transform: translateX(-2%); }
   100% {
-    transform: translateX(0%); } }
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%); } }
 @-webkit-keyframes slideRight {
   0% {
     -webkit-transform: translateX(-150%); }
@@ -9655,23 +9708,32 @@ slideExpandUp
 
 @keyframes slideExpandUp {
   0% {
-    transform: translateY(100%) scaleX(0.5); }
+    -webkit-transform: translateY(100%) scaleX(0.5);
+            transform: translateY(100%) scaleX(0.5); }
   30% {
-    transform: translateY(-8%) scaleX(0.5); }
+    -webkit-transform: translateY(-8%) scaleX(0.5);
+            transform: translateY(-8%) scaleX(0.5); }
   40% {
-    transform: translateY(2%) scaleX(0.5); }
+    -webkit-transform: translateY(2%) scaleX(0.5);
+            transform: translateY(2%) scaleX(0.5); }
   50% {
-    transform: translateY(0%) scaleX(1.1); }
+    -webkit-transform: translateY(0%) scaleX(1.1);
+            transform: translateY(0%) scaleX(1.1); }
   60% {
-    transform: translateY(0%) scaleX(0.9); }
+    -webkit-transform: translateY(0%) scaleX(0.9);
+            transform: translateY(0%) scaleX(0.9); }
   70% {
-    transform: translateY(0%) scaleX(1.05); }
+    -webkit-transform: translateY(0%) scaleX(1.05);
+            transform: translateY(0%) scaleX(1.05); }
   80% {
-    transform: translateY(0%) scaleX(0.95); }
+    -webkit-transform: translateY(0%) scaleX(0.95);
+            transform: translateY(0%) scaleX(0.95); }
   90% {
-    transform: translateY(0%) scaleX(1.02); }
+    -webkit-transform: translateY(0%) scaleX(1.02);
+            transform: translateY(0%) scaleX(1.02); }
   100% {
-    transform: translateY(0%) scaleX(1); } }
+    -webkit-transform: translateY(0%) scaleX(1);
+            transform: translateY(0%) scaleX(1); } }
 @-webkit-keyframes slideExpandUp {
   0% {
     -webkit-transform: translateY(100%) scaleX(0.5); }
@@ -9708,13 +9770,17 @@ expandUp
 
 @keyframes expandUp {
   0% {
-    transform: translateY(100%) scale(0.6) scaleY(0.5); }
+    -webkit-transform: translateY(100%) scale(0.6) scaleY(0.5);
+            transform: translateY(100%) scale(0.6) scaleY(0.5); }
   60% {
-    transform: translateY(-7%) scaleY(1.12); }
+    -webkit-transform: translateY(-7%) scaleY(1.12);
+            transform: translateY(-7%) scaleY(1.12); }
   75% {
-    transform: translateY(3%); }
+    -webkit-transform: translateY(3%);
+            transform: translateY(3%); }
   100% {
-    transform: translateY(0%) scale(1) scaleY(1); } }
+    -webkit-transform: translateY(0%) scale(1) scaleY(1);
+            transform: translateY(0%) scale(1) scaleY(1); } }
 @-webkit-keyframes expandUp {
   0% {
     -webkit-transform: translateY(100%) scale(0.6) scaleY(0.5); }
@@ -9741,15 +9807,19 @@ fadeIn
 
 @keyframes fadeIn {
   0% {
-    transform: scale(0);
+    -webkit-transform: scale(0);
+            transform: scale(0);
     opacity: 0.0; }
   60% {
-    transform: scale(1.1); }
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1); }
   80% {
-    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
     opacity: 1; }
   100% {
-    transform: scale(1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
     opacity: 1; } }
 @-webkit-keyframes fadeIn {
   0% {
@@ -9780,15 +9850,20 @@ expandOpen
 
 @keyframes expandOpen {
   0% {
-    transform: scale(1.8); }
+    -webkit-transform: scale(1.8);
+            transform: scale(1.8); }
   50% {
-    transform: scale(0.95); }
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95); }
   80% {
-    transform: scale(1.05); }
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05); }
   90% {
-    transform: scale(0.98); }
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98); }
   100% {
-    transform: scale(1); } }
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
 @-webkit-keyframes expandOpen {
   0% {
     -webkit-transform: scale(1.8); }
@@ -9817,25 +9892,32 @@ bigEntrance
 
 @keyframes bigEntrance {
   0% {
-    transform: scale(0.3) rotate(6deg) translateX(-30%) translateY(30%);
+    -webkit-transform: scale(0.3) rotate(6deg) translateX(-30%) translateY(30%);
+            transform: scale(0.3) rotate(6deg) translateX(-30%) translateY(30%);
     opacity: 0.2; }
   30% {
-    transform: scale(1.03) rotate(-2deg) translateX(2%) translateY(-2%);
+    -webkit-transform: scale(1.03) rotate(-2deg) translateX(2%) translateY(-2%);
+            transform: scale(1.03) rotate(-2deg) translateX(2%) translateY(-2%);
     opacity: 1; }
   45% {
-    transform: scale(0.98) rotate(1deg) translateX(0%) translateY(0%);
+    -webkit-transform: scale(0.98) rotate(1deg) translateX(0%) translateY(0%);
+            transform: scale(0.98) rotate(1deg) translateX(0%) translateY(0%);
     opacity: 1; }
   60% {
-    transform: scale(1.01) rotate(-1deg) translateX(0%) translateY(0%);
+    -webkit-transform: scale(1.01) rotate(-1deg) translateX(0%) translateY(0%);
+            transform: scale(1.01) rotate(-1deg) translateX(0%) translateY(0%);
     opacity: 1; }
   75% {
-    transform: scale(0.99) rotate(1deg) translateX(0%) translateY(0%);
+    -webkit-transform: scale(0.99) rotate(1deg) translateX(0%) translateY(0%);
+            transform: scale(0.99) rotate(1deg) translateX(0%) translateY(0%);
     opacity: 1; }
   90% {
-    transform: scale(1.01) rotate(0deg) translateX(0%) translateY(0%);
+    -webkit-transform: scale(1.01) rotate(0deg) translateX(0%) translateY(0%);
+            transform: scale(1.01) rotate(0deg) translateX(0%) translateY(0%);
     opacity: 1; }
   100% {
-    transform: scale(1) rotate(0deg) translateX(0%) translateY(0%);
+    -webkit-transform: scale(1) rotate(0deg) translateX(0%) translateY(0%);
+            transform: scale(1) rotate(0deg) translateX(0%) translateY(0%);
     opacity: 1; } }
 @-webkit-keyframes bigEntrance {
   0% {
@@ -9879,19 +9961,26 @@ hatch
 
 @keyframes hatch {
   0% {
-    transform: rotate(0deg) scaleY(0.6); }
+    -webkit-transform: rotate(0deg) scaleY(0.6);
+            transform: rotate(0deg) scaleY(0.6); }
   20% {
-    transform: rotate(-2deg) scaleY(1.05); }
+    -webkit-transform: rotate(-2deg) scaleY(1.05);
+            transform: rotate(-2deg) scaleY(1.05); }
   35% {
-    transform: rotate(2deg) scaleY(1); }
+    -webkit-transform: rotate(2deg) scaleY(1);
+            transform: rotate(2deg) scaleY(1); }
   50% {
-    transform: rotate(-2deg); }
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg); }
   65% {
-    transform: rotate(1deg); }
+    -webkit-transform: rotate(1deg);
+            transform: rotate(1deg); }
   80% {
-    transform: rotate(-1deg); }
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg); }
   100% {
-    transform: rotate(0deg); } }
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); } }
 @-webkit-keyframes hatch {
   0% {
     -webkit-transform: rotate(0deg) scaleY(0.6); }
@@ -9926,17 +10015,23 @@ bounce
 
 @keyframes bounce {
   0% {
-    transform: translateY(0%) scaleY(0.6); }
+    -webkit-transform: translateY(0%) scaleY(0.6);
+            transform: translateY(0%) scaleY(0.6); }
   60% {
-    transform: translateY(-100%) scaleY(1.1); }
+    -webkit-transform: translateY(-100%) scaleY(1.1);
+            transform: translateY(-100%) scaleY(1.1); }
   70% {
-    transform: translateY(0%) scaleY(0.95) scaleX(1.05); }
+    -webkit-transform: translateY(0%) scaleY(0.95) scaleX(1.05);
+            transform: translateY(0%) scaleY(0.95) scaleX(1.05); }
   80% {
-    transform: translateY(0%) scaleY(1.05) scaleX(1); }
+    -webkit-transform: translateY(0%) scaleY(1.05) scaleX(1);
+            transform: translateY(0%) scaleY(1.05) scaleX(1); }
   90% {
-    transform: translateY(0%) scaleY(0.95) scaleX(1); }
+    -webkit-transform: translateY(0%) scaleY(0.95) scaleX(1);
+            transform: translateY(0%) scaleY(0.95) scaleX(1); }
   100% {
-    transform: translateY(0%) scaleY(1) scaleX(1); } }
+    -webkit-transform: translateY(0%) scaleY(1) scaleX(1);
+            transform: translateY(0%) scaleY(1) scaleX(1); } }
 @-webkit-keyframes bounce {
   0% {
     -webkit-transform: translateY(0%) scaleY(0.6); }
@@ -9966,13 +10061,16 @@ pulse
 
 @keyframes pulse {
   0% {
-    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
     opacity: 0.4; }
   50% {
-    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
     opacity: 1; }
   100% {
-    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
     opacity: 0.4; } }
 @-webkit-keyframes pulse {
   0% {
@@ -10000,11 +10098,14 @@ floating
 
 @keyframes floating {
   0% {
-    transform: translateY(0%); }
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%); }
   50% {
-    transform: translateY(8%); }
+    -webkit-transform: translateY(8%);
+            transform: translateY(8%); }
   100% {
-    transform: translateY(0%); } }
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%); } }
 @-webkit-keyframes floating {
   0% {
     -webkit-transform: translateY(0%); }
@@ -10028,11 +10129,14 @@ tossing
 
 @keyframes tossing {
   0% {
-    transform: rotate(-4deg); }
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg); }
   50% {
-    transform: rotate(4deg); }
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg); }
   100% {
-    transform: rotate(-4deg); } }
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg); } }
 @-webkit-keyframes tossing {
   0% {
     -webkit-transform: rotate(-4deg); }
@@ -10059,19 +10163,26 @@ pullUp
 
 @keyframes pullUp {
   0% {
-    transform: scaleY(0.1); }
+    -webkit-transform: scaleY(0.1);
+            transform: scaleY(0.1); }
   40% {
-    transform: scaleY(1.02); }
+    -webkit-transform: scaleY(1.02);
+            transform: scaleY(1.02); }
   60% {
-    transform: scaleY(0.98); }
+    -webkit-transform: scaleY(0.98);
+            transform: scaleY(0.98); }
   80% {
-    transform: scaleY(1.01); }
+    -webkit-transform: scaleY(1.01);
+            transform: scaleY(1.01); }
   100% {
-    transform: scaleY(0.98); }
+    -webkit-transform: scaleY(0.98);
+            transform: scaleY(0.98); }
   80% {
-    transform: scaleY(1.01); }
+    -webkit-transform: scaleY(1.01);
+            transform: scaleY(1.01); }
   100% {
-    transform: scaleY(1); } }
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1); } }
 @-webkit-keyframes pullUp {
   0% {
     -webkit-transform: scaleY(0.1); }
@@ -10106,19 +10217,26 @@ pullDown
 
 @keyframes pullDown {
   0% {
-    transform: scaleY(0.1); }
+    -webkit-transform: scaleY(0.1);
+            transform: scaleY(0.1); }
   40% {
-    transform: scaleY(1.02); }
+    -webkit-transform: scaleY(1.02);
+            transform: scaleY(1.02); }
   60% {
-    transform: scaleY(0.98); }
+    -webkit-transform: scaleY(0.98);
+            transform: scaleY(0.98); }
   80% {
-    transform: scaleY(1.01); }
+    -webkit-transform: scaleY(1.01);
+            transform: scaleY(1.01); }
   100% {
-    transform: scaleY(0.98); }
+    -webkit-transform: scaleY(0.98);
+            transform: scaleY(0.98); }
   80% {
-    transform: scaleY(1.01); }
+    -webkit-transform: scaleY(1.01);
+            transform: scaleY(1.01); }
   100% {
-    transform: scaleY(1); } }
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1); } }
 @-webkit-keyframes pullDown {
   0% {
     -webkit-transform: scaleY(0.1); }
@@ -10153,19 +10271,26 @@ stretchLeft
 
 @keyframes stretchLeft {
   0% {
-    transform: scaleX(0.3); }
+    -webkit-transform: scaleX(0.3);
+            transform: scaleX(0.3); }
   40% {
-    transform: scaleX(1.02); }
+    -webkit-transform: scaleX(1.02);
+            transform: scaleX(1.02); }
   60% {
-    transform: scaleX(0.98); }
+    -webkit-transform: scaleX(0.98);
+            transform: scaleX(0.98); }
   80% {
-    transform: scaleX(1.01); }
+    -webkit-transform: scaleX(1.01);
+            transform: scaleX(1.01); }
   100% {
-    transform: scaleX(0.98); }
+    -webkit-transform: scaleX(0.98);
+            transform: scaleX(0.98); }
   80% {
-    transform: scaleX(1.01); }
+    -webkit-transform: scaleX(1.01);
+            transform: scaleX(1.01); }
   100% {
-    transform: scaleX(1); } }
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1); } }
 @-webkit-keyframes stretchLeft {
   0% {
     -webkit-transform: scaleX(0.3); }
@@ -10200,19 +10325,26 @@ stretchRight
 
 @keyframes stretchRight {
   0% {
-    transform: scaleX(0.3); }
+    -webkit-transform: scaleX(0.3);
+            transform: scaleX(0.3); }
   40% {
-    transform: scaleX(1.02); }
+    -webkit-transform: scaleX(1.02);
+            transform: scaleX(1.02); }
   60% {
-    transform: scaleX(0.98); }
+    -webkit-transform: scaleX(0.98);
+            transform: scaleX(0.98); }
   80% {
-    transform: scaleX(1.01); }
+    -webkit-transform: scaleX(1.01);
+            transform: scaleX(1.01); }
   100% {
-    transform: scaleX(0.98); }
+    -webkit-transform: scaleX(0.98);
+            transform: scaleX(0.98); }
   80% {
-    transform: scaleX(1.01); }
+    -webkit-transform: scaleX(1.01);
+            transform: scaleX(1.01); }
   100% {
-    transform: scaleX(1); } }
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1); } }
 @-webkit-keyframes stretchRight {
   0% {
     -webkit-transform: scaleX(0.3); }
