@@ -3,7 +3,11 @@
 
 <% content_for(:title, project.name) %>
 
-<div id="banner-<%= project.id %>" class="text-center project-banner">
+<div id="banner" class="text-center" style="background: url('<%= image_path project.bg_img%>') no-repeat center center fixed; background-size: cover; @media only screen and ($screen-md) {
+      background: no-repeat bottom center scroll;
+      padding-top: 150px;
+      padding-bottom: 150px;
+  }">
   <div class="arrow-container fadeInArrow">
     <a href="#">
       <i class="fa fa-angle-down scroll-btn"></i>
@@ -13,42 +17,36 @@
 
 <div id="project" class="small-padded text-center">
   <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-        <h1><%= project.name %></h1>
-        <% if project.link %>
-          <p class="project-link"><%= link_to("See website", project.link, target: "blank") %></p>
-        <% end %>
-        <p><%= project.medium %></p>
-        <% project.images.each do |image| %>
-          <% image_url = "#{project.img_path}/#{image}" %>
-          <%= image_tag image_url, class: "img-responsive img-padded" %>
-        <% end %>
-      </div>
-    </div>
+    <h1><%= project.name %></h1>
+    <% if project.link %>
+      <p class="project-link"><%= link_to("See website", project.link, target: "blank") %></p>
+    <% end %>
+    <p><%= project.medium %></p>
+    <% project.images.each do |image| %>
+      <%= image_tag image, class: "img-responsive img-padded" %>
+    <% end %>
   </div>
 </div>
 
 
 <div id="feature-work" class="padded text-center">
   <div class="container">
-    <div class="row">
-        <h2 class="mh-padded">Other projects</h2>
-        <%
-          featured = data.portfolio[0...12]
-          featured.delete_if{|item| item.name == project.name }
-          featured.delete_if{|item| item.category != project.category }
-          featured.sample(3).each do |f| %>
-<!--       <div class="col-md-10 col-md-offset-1"> -->
-
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <% link_to "/work/#{f.url}.html" do %>
-              <% image_url = "#{f.img_path}/#{f.thumbnail}" %>
-              <%= image_tag image_url, class: "img-large img-padded" %>
-            <% end %>
+    <h2 class="mh-padded">Other projects</h2>
+    <div class="features">
+      <%
+        featured = data.portfolio[0..-1]
+        featured.delete_if{|item| item.name == project.name }
+        featured.delete_if{|item| item.category != project.category }
+        featured.sample(3).each do |f| %>
+          <div class="feature-container">
+            <a class='feature-url' href= <%= f.url %> ></a>
+            <div class="feature-item">
+              <div class="feature-item-thumbnail">
+                <%= image_tag f.img_path %>
+              </div>
+            </div>
           </div>
-        <% end %>
-<!--       </div> -->
+      <% end %>
     </div>
   </div>
 </div>

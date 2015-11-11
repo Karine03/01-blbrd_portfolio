@@ -1,12 +1,43 @@
-
+- id: lareserve
+  name: La Réserve
+  img_path: images/work/lareserve/reserve-thumbnail.jpg
+  bg_img: images/work/lareserve/reserve-banner.jpg
+  type: web development - web design - UI/UX
+  category: web
+  url: /work/lareserve.html
+  description: |
+      La réserve is a table management software for restaurant. It help them
+      organize their bookings, clients, table, employee etc.
+      Technos : Ruby on Rails
+      <br />
+      <br />
+  medium: <strong>web development - website design - branding</strong>
+  images:
+    - images/work/lareserve/reserve-1.jpg
+- id: jurisactis
+  name: Juris & Actis
+  img_path: images/work/jurisactis/juris-thumbnail.jpg
+  bg_img: images/work/jurisactis/juris-banner.jpg
+  type: editorial design
+  category: branding
+  url: /work/jurisactis.html
+  description: |
+      La réserve is a table management software for restaurant. It help them
+      organize their bookings, clients, table, employee etc.
+      Technos : Ruby on Rails
+      <br />
+      <br />
+  medium: <strong>graphic design - editorial design</strong>
+  images:
+    - images/work/jurisactis/juris-1.jpg
+    - images/work/jurisactis/juris-2.jpg
 - id: balloon
   name: The Balloon Diary
-  img_path: work/balloon
-  thumbnail: balloon-thumbnail.jpg
-  bg_img: balloon-banner.jpg
+  img_path: images/work/balloon/balloon-thumbnail.jpg
+  bg_img: images/work/balloon/balloon-banner.jpg
   type: web design
   category: web
-  url: balloon
+  url: /work/balloon.html
   link: http://www.theballoondiary.com/
   description: |
       The Balloon Diary is a <strong>lifestyle and fashion blog</strong>,
@@ -17,16 +48,31 @@
       <br />
   medium: <strong>website design</strong>
   images:
-    - balloon-1.jpg
-    - balloon-2.jpg
+    - images/work/balloon/balloon-1.jpg
+    - images/work/balloon/balloon-2.jpg
+- id: cointreau
+  name: Rémy Cointreau
+  img_path: images/work/cointreau/cointreau-thumbnail.jpg
+  bg_img: images/work/cointreau/cointreau-banner.jpg
+  type: editorial design
+  category: edito
+  url: /work/cointreau.html
+  description: |
+      La réserve is a table management software for restaurant. It help them
+      organize their bookings, clients, table, employee etc.
+      Technos : Ruby on Rails
+      <br />
+      <br />
+  medium: <strong>graphic design - editorial design</strong>
+  images:
+    - images/work/cointreau/cointreau-1.jpg
 - id: something
   name: Something Magazine
-  img_path: work/something
-  thumbnail: something-thumbnail.jpg
-  bg_img: something-banner.jpg
+  img_path: images/work/something/something-thumbnail.jpg
+  bg_img: images/work/something/something-banner.jpg
   type: branding - web design
   category: web
-  url: something
+  url: /work/something.html
   link: http://www.something-mag.com/
   description: |
       Something Magazine is a lifestyle blog,
@@ -37,54 +83,52 @@
       <br />
   medium: <strong>brand identity / website design</strong>
   images:
-    - something-1.jpg
-    - something-2.jpg
-    - something-3.jpg
+    - images/work/something/something-1.jpg
+    - images/work/something/something-2.jpg
+    - images/work/something/something-3.jpg
 - id: siaurac
   name: Château Siaurac and Co
-  img_path: work/siaurac
-  thumbnail: siaurac-thumbnail.jpg
-  bg_img: siaurac-banner.jpg
+  img_path: images/work/siaurac/siaurac-thumbnail.jpg
+  bg_img: images/work/siaurac/siaurac-banner.jpg
   type: branding - web design - editorial design - packaging
   category: branding
-  url: chateau_siaurac
+  url: /work/chateau_siaurac.html
   description: |
-    Rebranding for <strong>Château Siaurac and Co</strong>,
-    a french vineyard near Bordeaux.
-    <br />
-    After renaming the company as Château Siaurac and Co,
-    instead of Vins Baronne Guichard, the brand wanted to
-    communicate around the business activity, the vine and
-    the vineyard (they have a huge garden and they wanted to highlight it);
-    to create a brand identity that fits with the activity.
-    <br />
-    For the graphic identity, as they wanted to keep their wine label and the
-    color code that goes with it, they choose to have a neutral but elegant color
-    for the graphic identity. They have a lack of graphic unity in all their
-    support (print & web) so the goal was to create a strong unity between
-    all their media.
-    <br />
-    <br />
+      Rebranding for <strong>Château Siaurac and Co</strong>,
+      a french vineyard near Bordeaux.
+      <br />
+      After renaming the company as Château Siaurac and Co,
+      instead of Vins Baronne Guichard, the brand wanted to
+      communicate around the business activity, the vine and
+      the vineyard (they have a huge garden and they wanted to highlight it);
+      to create a brand identity that fits with the activity.
+      <br />
+      For the graphic identity, as they wanted to keep their wine label and the
+      color code that goes with it, they choose to have a neutral but elegant color
+      for the graphic identity. They have a lack of graphic unity in all their
+      support (print & web) so the goal was to create a strong unity between
+      all their media.
+      <br />
+      <br />
   medium: |
     <strong>brand identity / website design / guidelines / packaging /
     editiorial design / various printed collaterals</strong>
   images:
-    - siaurac-1.jpg
-    - siaurac-2.jpg
-    - siaurac-3.jpg
-    - siaurac-4.jpg
-    - siaurac-5.jpg
-    - siaurac-6.jpg
-    - siaurac-7.jpg
-    - siaurac-8.jpg
+    - images/work/siaurac/siaurac-1.jpg
+    - images/work/siaurac/siaurac-2.jpg
+    - images/work/siaurac/siaurac-3.jpg
+    - images/work/siaurac/siaurac-4.jpg
+    - images/work/siaurac/siaurac-5.jpg
+    - images/work/siaurac/siaurac-6.jpg
+    - images/work/siaurac/siaurac-7.jpg
+    - images/work/siaurac/siaurac-8.jpg
 - id: prima
   name: Prima
-  img_path: work/prima
-  thumbnail: prima-thumbnail.jpg
-  bg_img: prima-banner.jpg
+  img_path: images/work/prima/prima-thumbnail.jpg
+  bg_img: images/work/prima/prima-banner.jpg
   type: branding - web design
   category: web
-  url: prima
+  url: /work/prima.html
   description: |
       Prima Contract, a general contractor, wanted to
       have a website to explain their business and show
@@ -95,44 +139,42 @@
       <br />
   medium: <strong>brand identity / website design</strong>
   images:
-    - prima-1.jpg
-    - prima-2.jpg
-    - prima-3.jpg
-    - prima-4.jpg
+    - images/work/prima/prima-1.jpg
+    - images/work/prima/prima-2.jpg
+    - images/work/prima/prima-3.jpg
+    - images/work/prima/prima-4.jpg
 - id: foodstore
   name: Foodstore and partners
-  img_path: work/foodstore
-  thumbnail: foodstore-thumbnail.jpg
-  bg_img: foodstore-banner.jpg
+  img_path: images/work/foodstore/foodstore-thumbnail.jpg
+  bg_img: images/work/foodstore/foodstore-banner.jpg
   type: branding - editorial design
   category: branding
-  url: foodstore
+  url: /work/foodstore.html
   description: |
-    Branding for <strong>Foodstore and Partners</strong>,
-    expert in estate development specialised in streetfood restaurant.
-    They wanted to have a logo representing streetfood to be
-    closer to their clients. The whole identity was build around
-    that concept with menu-like brochure, etc.
-    <br />
-    <br />
+      Branding for <strong>Foodstore and Partners</strong>,
+      expert in estate development specialised in streetfood restaurant.
+      They wanted to have a logo representing streetfood to be
+      closer to their clients. The whole identity was build around
+      that concept with menu-like brochure, etc.
+      <br />
+      <br />
   medium: |
     <strong>brand identity / guidelines /
     editiorial design / various printed collaterals</strong>
   images:
-    - foodstore-1.jpg
-    - foodstore-2.jpg
-    - foodstore-3.jpg
-    - foodstore-4.jpg
-    - foodstore-5.jpg
-    - foodstore-6.jpg
+    - images/work/foodstore/foodstore-1.jpg
+    - images/work/foodstore/foodstore-2.jpg
+    - images/work/foodstore/foodstore-3.jpg
+    - images/work/foodstore/foodstore-4.jpg
+    - images/work/foodstore/foodstore-5.jpg
+    - images/work/foodstore/foodstore-6.jpg
 - id: lafourmi
   name: La Fourmi
-  img_path: work/lafourmi
-  thumbnail: lafourmi-thumbnail.jpg
-  bg_img: lafourmi-banner.jpg
+  img_path: images/work/lafourmi/lafourmi-thumbnail.jpg
+  bg_img: images/work/lafourmi/lafourmi-banner.jpg
   type: branding - web design
   category: web
-  url: lafourmi
+  url: /work/lafourmi.html
   link: http://lafourmi-archi.com/accueil/
   description: |
       Lorem ipsum dolor sit ame
@@ -145,17 +187,42 @@
       <br />
   medium: <strong>brand identity / website design</strong>
   images:
-    - lafourmi-1.jpg
-    - lafourmi-2.jpg
-    - lafourmi-3.jpg
+    - images/work/lafourmi/lafourmi-1.jpg
+    - images/work/lafourmi/lafourmi-2.jpg
+    - images/work/lafourmi/lafourmi-3.jpg
+- id: requiem
+  name: Requiem
+  img_path: images/work/requiem/requiem-thumbnail.jpg
+  bg_img: images/work/requiem/requiem-banner.jpg
+  type: editiorial design
+  category: edito
+  url: /work/requiem.html
+  description: |
+      Lorem ipsum dolor sit ame
+      onsectetur adipisicing elit. Labore tenetur
+      sequi, tempora reiciendis quis autem officia
+      incidunt quidem in assumenda iste non, rerum,
+      amet! Officiis cumque voluptas culpa,
+      voluptatum at!
+      <br />
+      <br />
+  medium: <strong>editiorial design / typography</strong>
+  images:
+    - images/work/requiem/requiem-1.jpg
+    - images/work/requiem/requiem-2.jpg
+    - images/work/requiem/requiem-3.jpg
+    - images/work/requiem/requiem-4.jpg
+    - images/work/requiem/requiem-5.jpg
+    - images/work/requiem/requiem-6.jpg
+    - images/work/requiem/requiem-7.jpg
+    - images/work/requiem/requiem-8.jpg
 - id: ddhc
   name: Declaration of Human Right
-  img_path: work/ddhc
-  thumbnail: ddhc-thumbnail.jpg
-  bg_img: ddhc-banner.jpg
+  img_path: images/work/ddhc/ddhc-thumbnail.jpg
+  bg_img: images/work/ddhc/ddhc-banner.jpg
   type: poster design
   category: branding
-  url: ddhc
+  url: /work/ddhc.html
   description: |
       Lorem ipsum dolor sit ame
       onsectetur adipisicing elit. Labore tenetur
@@ -167,16 +234,15 @@
       <br />
   medium: <strong>poster design</strong>
   images:
-  - ddhc-1.jpg
-  - ddhc-2.jpg
+    - images/work/ddhc/ddhc-1.jpg
+    - images/work/ddhc/ddhc-2.jpg
 - id: ddp
   name: Défilé des primeurs
-  img_path: work/ddp
-  thumbnail: ddp-thumbnail.jpg
-  bg_img: ddp-banner.jpg
+  img_path: images/work/ddp/ddp-thumbnail.jpg
+  bg_img: images/work/ddp/ddp-banner.jpg
   type: branding
   category: branding
-  url: ddp
+  url: /work/ddp.html
   description: |
       Lorem ipsum dolor sit ame
       onsectetur adipisicing elit. Labore tenetur
@@ -188,17 +254,16 @@
       <br />
   medium: <strong>brand identity / packaging</strong>
   images:
-  - ddp-1.jpg
-  - ddp-2.jpg
-  - ddp-3.jpg
+    - images/work/ddp/ddp-1.jpg
+    - images/work/ddp/ddp-2.jpg
+    - images/work/ddp/ddp-3.jpg
 - id: egg
   name: Egg Magazine
-  img_path: work/egg
-  thumbnail: egg-thumbnail.jpg
-  bg_img: egg-banner.jpg
+  img_path: images/work/egg/egg-thumbnail.jpg
+  bg_img: images/work/egg/egg-banner.jpg
   type: editiorial design
-  category: editorial
-  url: egg
+  category: edito
+  url: /work/egg.html
   description: |
       Lorem ipsum dolor sit ame
       onsectetur adipisicing elit. Labore tenetur
@@ -210,22 +275,21 @@
       <br />
   medium: <strong>brand identity / editorial design</strong>
   images:
-    - egg-1.jpg
-    - egg-2.jpg
-    - egg-3.jpg
-    - egg-4.jpg
-    - egg-5.jpg
-    - egg-6.jpg
-    - egg-7.jpg
-    - egg-8.jpg
+    - images/work/egg/egg-1.jpg
+    - images/work/egg/egg-2.jpg
+    - images/work/egg/egg-3.jpg
+    - images/work/egg/egg-4.jpg
+    - images/work/egg/egg-5.jpg
+    - images/work/egg/egg-6.jpg
+    - images/work/egg/egg-7.jpg
+    - images/work/egg/egg-8.jpg
 - id: heinz
   name: Heinz
-  img_path: work/heinz
-  thumbnail: heinz-thumbnail.jpg
-  bg_img: heinz-banner.jpg
+  img_path: images/work/heinz/heinz-thumbnail.jpg
+  bg_img: images/work/heinz/heinz-banner.jpg
   type: editiorial design
-  category: editorial
-  url: heinz
+  category: edito
+  url: /work/heinz.html
   description: |
       Lorem ipsum dolor sit ame
       onsectetur adipisicing elit. Labore tenetur
@@ -237,21 +301,20 @@
       <br />
   medium: <strong>editiorial design / photography</strong>
   images:
-    - heinz-1.jpg
-    - heinz-2.jpg
-    - heinz-3.jpg
-    - heinz-4.jpg
-    - heinz-5.jpg
-    - heinz-7.jpg
-    - heinz-8.jpg
+    - images/work/heinz/heinz-1.jpg
+    - images/work/heinz/heinz-2.jpg
+    - images/work/heinz/heinz-3.jpg
+    - images/work/heinz/heinz-4.jpg
+    - images/work/heinz/heinz-5.jpg
+    - images/work/heinz/heinz-7.jpg
+    - images/work/heinz/heinz-8.jpg
 - id: two
   name: Two
-  img_path: work/two
-  thumbnail: two-thumbnail.jpg
-  bg_img: two-banner.jpg
+  img_path: images/work/two/two-thumbnail.jpg
+  bg_img: images/work/two/two-banner.jpg
   type: photography - editiorial design
-  category: editorial
-  url: two
+  category: edito
+  url: /work/two.html
   description: |
       Lorem ipsum dolor sit ame
       onsectetur adipisicing elit. Labore tenetur
@@ -263,38 +326,11 @@
       <br />
   medium: <strong>editiorial design / photography</strong>
   images:
-    - two-1.jpg
-    - two-2.jpg
-    - two-4.jpg
-    - two-5.jpg
-    - two-7.jpg
-    - two-8.jpg
-    - two-9.jpg
-- id: requiem
-  name: Requiem
-  img_path: work/requiem
-  thumbnail: requiem-thumbnail.jpg
-  bg_img: requiem-banner.jpg
-  type: editiorial design
-  category: editorial
-  url: requiem
-  description: |
-    Lorem ipsum dolor sit ame
-    onsectetur adipisicing elit. Labore tenetur
-    sequi, tempora reiciendis quis autem officia
-    incidunt quidem in assumenda iste non, rerum,
-    amet! Officiis cumque voluptas culpa,
-    voluptatum at!
-    <br />
-    <br />
-  medium: <strong>editiorial design / typography</strong>
-  images:
-    - requiem-1.jpg
-    - requiem-2.jpg
-    - requiem-3.jpg
-    - requiem-4.jpg
-    - requiem-5.jpg
-    - requiem-6.jpg
-    - requiem-7.jpg
-    - requiem-8.jpg
+    - images/work/two/two-1.jpg
+    - images/work/two/two-2.jpg
+    - images/work/two/two-4.jpg
+    - images/work/two/two-5.jpg
+    - images/work/two/two-7.jpg
+    - images/work/two/two-8.jpg
+    - images/work/two/two-9.jpg
 

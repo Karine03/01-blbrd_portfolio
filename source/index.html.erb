@@ -3,7 +3,23 @@ title: BLBRD - Developer and Art Director in Paris
 ---
 
 
-<div id="banner" class="text-center">
+<!-- <div id="banner" class="text-center">
+  <div class="fadeInHome">
+    <h1>ART DIRECTION AND WEB DEVELOPMENT</h1>
+    <span class="subhead-big">
+      Timeless, powerful, consistent and elegant design for your brand
+    </span>
+    <br>
+    <%#=link_to"See the portfolio", "/work.html", class: "btn btn-info btn-lg"%>
+  </div>
+  <div class="arrow-container fadeInArrow">
+    <a href="#services">
+      <i class="fa fa-angle-down scroll-btn"></i>
+    </a>
+  </div>
+</div> -->
+
+<div id="banner" class="text-center" style="background-image: url('<%= image_path('banner3.jpg')%>');">
   <div class="fadeInHome">
     <h1>ART DIRECTION AND WEB DEVELOPMENT</h1>
     <span class="subhead-big">
@@ -19,10 +35,12 @@ title: BLBRD - Developer and Art Director in Paris
   </div>
 </div>
 
+
 <div id="services" class="padded">
   <div class="container">
-    <div class="row text-center">
-      <div class="col-sm-6 col-md-3">
+    <div class="services text-center">
+
+      <div class="service-container">
        <%= image_tag "focus.png", alt: "focus", class: "img-small"%>
        <h3 class="sh-padded">#strategy</h3>
        <p>
@@ -31,9 +49,7 @@ title: BLBRD - Developer and Art Director in Paris
        <br>
       </div>
 
-
-
-      <div class="col-sm-6 col-md-3">
+      <div class="service-container">
         <%= image_tag "brightness.png", alt: "idea", class: "img-small"%>
         <h3 class="sh-padded">#creativity</h3>
         <p>
@@ -42,8 +58,7 @@ title: BLBRD - Developer and Art Director in Paris
         <br>
       </div>
 
-
-      <div class="col-sm-6 col-md-3">
+      <div class="service-container">
         <%= image_tag "dev.png", alt: "tools", class: "img-small"%>
         <h3 class="sh-padded">#multidisciplinary</h3>
         <p>
@@ -52,32 +67,36 @@ title: BLBRD - Developer and Art Director in Paris
         <br>
       </div>
 
-
-      <div class="col-sm-6 col-md-3">
+      <div class="service-container">
         <%= image_tag "helicopter.png", alt: "international", class: "img-small"%>
         <h3 class="sh-padded">#international</h3>
         <p>
           We are always thrilled to work with <strong>international brand</strong>! Curious about <strong>foreign cultures</strong>, and proud to bring our <strong>french touch</strong>!
         </p>
       </div>
+
     </div>
+
   </div>
 </div>
 
--
 <div id="work-exemple" class="padded text-center">
   <div class="container">
-    <div class="row">
-      <h2 class="mh-padded">Last projects</h2>
+    <h2 class="mh-padded">Last projects</h2>
+    <div class="works">
       <% data.portfolio.first(4).each do |p| %>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <% link_to "/work/#{p.url}.html" do %>
-            <% image_url = "#{p.img_path}/#{p.thumbnail}" %>
-            <%= image_tag image_url, class: "img-medium img-padded" %>
-          <% end %>
+        <div class="work-container">
+          <a class='work-url' href= <%= p.url %> ></a>
+          <div class='work-item'>
+            <div class='work-item-thumbnail'>
+              <%= image_tag p.img_path %>
+            </div>
+          </div>
         </div>
       <% end %>
-      <%=link_to"See full portfolio", "/work.html", class: "btn btn-primary btn-lg"%>
+      <div class="work-container">
+        <%=link_to"See full portfolio", "/work.html", class: "btn btn-primary btn-lg"%>
+      </div>
     </div>
   </div>
 </div>

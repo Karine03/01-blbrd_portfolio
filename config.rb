@@ -29,7 +29,7 @@
 #  :which_fake_page => "Rendering a fake page with a local variable" }
 
 data.portfolio.each do |project|
-  proxy "/work/#{project.url}.html", "/portfolio.html", locals: {
+  proxy project.url, "/portfolio.html", locals: {
     project: project
   }, :ignore => true
 end
@@ -44,6 +44,9 @@ end
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
+  require "better_errors"
+  use BetterErrors::Middleware
+  BetterErrors.application_root = __dir__
 end
 
 # Methods defined in the helpers block are available in templates

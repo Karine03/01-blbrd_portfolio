@@ -3,20 +3,19 @@ title: BLBRD - Portfolio
 ---
 
 
-
 <div id="work" class="padded text-center">
   <div class="container">
-    <div class="row">
-<!--       <div class="col-md-10 col-md-offset-1"> -->
-        <% data.portfolio.each do |p| %>
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <% link_to "/work/#{p.url}.html" do %>
-              <% image_url = "#{p.img_path}/#{p.thumbnail}" %>
-              <%= image_tag image_url, class: "img-large img-padded" %>
-            <% end %>
+    <div class="works">
+      <% data.portfolio.each do |p| %>
+        <div class="work-container">
+          <a class='work-url' href= <%= p.url %> ></a>
+          <div class='work-item'>
+            <div class='work-item-thumbnail'>
+              <%= image_tag p.img_path %>
+            </div>
           </div>
-        <% end %>
-<!--       </div> -->
+        </div>
+      <% end %>
     </div>
   </div>
 </div>
