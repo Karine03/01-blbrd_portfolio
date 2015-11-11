@@ -34,9 +34,9 @@
     <h2 class="mh-padded">Other projects</h2>
     <div class="features">
       <%
-        featured = data.portfolio
-        #featured.delete_if{|item| item.name == project.name }
-        #featured.delete_if{|item| item.category != project.category }
+        featured = data.portfolio[0..-1]
+        featured.delete_if{|item| item.name == project.name }
+        featured.delete_if{|item| item.category != project.category }
         featured.sample(3).each do |f| %>
           <div class="feature-container">
             <a class='feature-url' href= <%= f.url %> ></a>
