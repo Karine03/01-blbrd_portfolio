@@ -81,6 +81,8 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
+activate :autoprefixer
+
 # Deployment
 activate :deploy do |deploy|
   deploy.method = :git
