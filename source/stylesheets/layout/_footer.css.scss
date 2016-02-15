@@ -1,7 +1,7 @@
 // Your footer style
 
 #footer {
-  background-color: $light-grey;
+  background-color: $dark-grey;
   padding:20px 0;
   color:white;
   p {
@@ -10,7 +10,7 @@
   a {
     color:white;
     &:hover {
-    color: $dark-grey;
+    color: lighten($dark-grey, 40%);
     text-decoration: none;
     }
   }
