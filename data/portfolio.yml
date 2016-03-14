@@ -1,8 +1,39 @@
+- id: mamagoto
+  name: Mamagoto
+  img_path: images/work/mamagoto/mamagoto-thumbnail.jpg
+  bg_img: images/work/mamagoto/mamagoto-banner.jpg
+  type: branding
+  category: branding
+  url: /work/mamagoto.html
+  link: http://www.mamagoto.fr/
+  description: |
+      Branding for Mamagoto, restaurant in Paris.
+      Mamagoto is a japanese word, meaning 'Dinette'.
+      <br />
+      <br />
+  medium: <strong>branding</strong> (website in construction)
+  images:
+    - images/work/mamagoto/mamagoto-1.jpg
+    - images/work/mamagoto/mamagoto-2.jpg
+    - images/work/mamagoto/mamagoto-3.jpg
+# - id: kube
+#   name: Kube
+#   type: web development - web design - UI/UX
+#   category: web
+#   url: /work/kube.html
+#   description: |
+#       Kube is a web app for people looking for something to read.
+#       A dedicated bookseller choose a book for you after answering
+#       a few question about your reading wish.
+#       Technos : Ruby on Rails
+#       <br />
+#       <br />
+#   medium: <strong>web development - web design - UI/UX</strong>
 - id: lareserve
   name: La Réserve
   img_path: images/work/lareserve/reserve-thumbnail.jpg
   bg_img: images/work/lareserve/reserve-banner.jpg
-  type: web development - web design - UI/UX
+  type: web development
   category: web
   url: /work/lareserve.html
   description: |
@@ -11,23 +42,21 @@
       Technos : Ruby on Rails
       <br />
       <br />
-  medium: <strong>web development - website design - branding</strong>
+  medium: <strong>web development / website design / branding</strong>
   images:
     - images/work/lareserve/reserve-1.jpg
 - id: jurisactis
   name: Juris & Actis
   img_path: images/work/jurisactis/juris-thumbnail.jpg
   bg_img: images/work/jurisactis/juris-banner.jpg
-  type: editorial design
+  type: graphic design
   category: branding
   url: /work/jurisactis.html
   description: |
-      La réserve is a table management software for restaurant. It help them
-      organize their bookings, clients, table, employee etc.
-      Technos : Ruby on Rails
+      Branding for Juris and Actis
       <br />
       <br />
-  medium: <strong>graphic design - editorial design</strong>
+  medium: <strong>graphic design / editorial design</strong>
   images:
     - images/work/jurisactis/juris-1.jpg
     - images/work/jurisactis/juris-2.jpg
@@ -58,19 +87,17 @@
   category: edito
   url: /work/cointreau.html
   description: |
-      La réserve is a table management software for restaurant. It help them
-      organize their bookings, clients, table, employee etc.
-      Technos : Ruby on Rails
+      Cocktail card for an event.
       <br />
       <br />
-  medium: <strong>graphic design - editorial design</strong>
+  medium: <strong>graphic design / editorial design</strong>
   images:
     - images/work/cointreau/cointreau-1.jpg
 - id: something
   name: Something Magazine
   img_path: images/work/something/something-thumbnail.jpg
   bg_img: images/work/something/something-banner.jpg
-  type: branding - web design
+  type: web design
   category: web
   url: /work/something.html
   link: http://www.something-mag.com/
@@ -90,7 +117,7 @@
   name: Château Siaurac and Co
   img_path: images/work/siaurac/siaurac-thumbnail.jpg
   bg_img: images/work/siaurac/siaurac-banner.jpg
-  type: branding - web design - editorial design - packaging
+  type: graphic design
   category: branding
   url: /work/chateau_siaurac.html
   description: |
@@ -126,7 +153,7 @@
   name: Prima
   img_path: images/work/prima/prima-thumbnail.jpg
   bg_img: images/work/prima/prima-banner.jpg
-  type: branding - web design
+  type: web design
   category: web
   url: /work/prima.html
   description: |
@@ -147,7 +174,7 @@
   name: Foodstore and partners
   img_path: images/work/foodstore/foodstore-thumbnail.jpg
   bg_img: images/work/foodstore/foodstore-banner.jpg
-  type: branding - editorial design
+  type: graphic design
   category: branding
   url: /work/foodstore.html
   description: |
@@ -172,17 +199,12 @@
   name: La Fourmi
   img_path: images/work/lafourmi/lafourmi-thumbnail.jpg
   bg_img: images/work/lafourmi/lafourmi-banner.jpg
-  type: branding - web design
+  type: web design
   category: web
   url: /work/lafourmi.html
   link: http://lafourmi-archi.com/accueil/
   description: |
-      Lorem ipsum dolor sit ame
-      onsectetur adipisicing elit. Labore tenetur
-      sequi, tempora reiciendis quis autem officia
-      incidunt quidem in assumenda iste non, rerum,
-      amet! Officiis cumque voluptas culpa,
-      voluptatum at!
+      Web design of La Fourmi's portfolio : interior design architect.
       <br />
       <br />
   medium: <strong>brand identity / website design</strong>
@@ -198,12 +220,7 @@
   category: edito
   url: /work/requiem.html
   description: |
-      Lorem ipsum dolor sit ame
-      onsectetur adipisicing elit. Labore tenetur
-      sequi, tempora reiciendis quis autem officia
-      incidunt quidem in assumenda iste non, rerum,
-      amet! Officiis cumque voluptas culpa,
-      voluptatum at!
+      Type book to present the font Requiem.
       <br />
       <br />
   medium: <strong>editiorial design / typography</strong>
@@ -217,19 +234,14 @@
     - images/work/requiem/requiem-7.jpg
     - images/work/requiem/requiem-8.jpg
 - id: ddhc
-  name: Declaration of Human Right
+  name: Declaration of Human Rights
   img_path: images/work/ddhc/ddhc-thumbnail.jpg
   bg_img: images/work/ddhc/ddhc-banner.jpg
   type: poster design
   category: branding
   url: /work/ddhc.html
   description: |
-      Lorem ipsum dolor sit ame
-      onsectetur adipisicing elit. Labore tenetur
-      sequi, tempora reiciendis quis autem officia
-      incidunt quidem in assumenda iste non, rerum,
-      amet! Officiis cumque voluptas culpa,
-      voluptatum at!
+      Series of poster for an exhibition about Human Rights
       <br />
       <br />
   medium: <strong>poster design</strong>
@@ -244,12 +256,7 @@
   category: branding
   url: /work/ddp.html
   description: |
-      Lorem ipsum dolor sit ame
-      onsectetur adipisicing elit. Labore tenetur
-      sequi, tempora reiciendis quis autem officia
-      incidunt quidem in assumenda iste non, rerum,
-      amet! Officiis cumque voluptas culpa,
-      voluptatum at!
+      Branding and packaging for 'Le défilé des primeurs', wine of the latest
       <br />
       <br />
   medium: <strong>brand identity / packaging</strong>
@@ -312,7 +319,7 @@
   name: Two
   img_path: images/work/two/two-thumbnail.jpg
   bg_img: images/work/two/two-banner.jpg
-  type: photography - editiorial design
+  type: photography
   category: edito
   url: /work/two.html
   description: |
