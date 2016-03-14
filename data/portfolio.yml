@@ -1,5 +1,5 @@
 - id: mamagoto
-  name: Mamagoto
+  name: Mamagoto Paris
   img_path: images/work/mamagoto/mamagoto-thumbnail.jpg
   bg_img: images/work/mamagoto/mamagoto-banner.jpg
   type: branding
@@ -37,8 +37,9 @@
   category: web
   url: /work/lareserve.html
   description: |
-      La réserve is a table management software for restaurant. It help them
+      La réserve is a table management software for restaurant. <br /> It help them
       organize their bookings, clients, table, employee etc.
+      <br />
       Technos : Ruby on Rails
       <br />
       <br />
@@ -52,10 +53,6 @@
   type: graphic design
   category: branding
   url: /work/jurisactis.html
-  description: |
-      Branding for Juris and Actis
-      <br />
-      <br />
   medium: <strong>graphic design / editorial design</strong>
   images:
     - images/work/jurisactis/juris-1.jpg
@@ -70,7 +67,7 @@
   link: http://www.theballoondiary.com/
   description: |
       The Balloon Diary is a <strong>lifestyle and fashion blog</strong>,
-      telling the story of Anna Dawson, an australian girl
+      telling the story of Anna Dawson, an australian girl <br />
       who started a new life in Paris and posting about
       what she discovers everyday.
       <br />
@@ -103,7 +100,7 @@
   link: http://www.something-mag.com/
   description: |
       Something Magazine is a lifestyle blog,
-      posting about food, design, ...
+      posting about food, design, ...<br />
       They wanted to have a clean and easy to
       read blog, with a strong brand identity.
       <br />
@@ -123,16 +120,16 @@
   description: |
       Rebranding for <strong>Château Siaurac and Co</strong>,
       a french vineyard near Bordeaux.
-      <br />
+      <br /><br />
       After renaming the company as Château Siaurac and Co,
-      instead of Vins Baronne Guichard, the brand wanted to
+      instead of Vins Baronne Guichard,<br /> the brand wanted to
       communicate around the business activity, the vine and
-      the vineyard (they have a huge garden and they wanted to highlight it);
+      the vineyard (they have a huge garden and they wanted to highlight it), <br />
       to create a brand identity that fits with the activity.
-      <br />
+      <br /><br />
       For the graphic identity, as they wanted to keep their wine label and the
-      color code that goes with it, they choose to have a neutral but elegant color
-      for the graphic identity. They have a lack of graphic unity in all their
+      color code that goes with it, <br />they choose to have a neutral but elegant color
+      for the graphic identity. <br />They had a lack of graphic unity in all their
       support (print & web) so the goal was to create a strong unity between
       all their media.
       <br />
@@ -159,7 +156,7 @@
   description: |
       Prima Contract, a general contractor, wanted to
       have a website to explain their business and show
-      their project. They also wanted to change their identity
+      their project.<br /> They also wanted to change their identity
       for something more impactful and representative of
       their business.
       <br />
@@ -180,8 +177,8 @@
   description: |
       Branding for <strong>Foodstore and Partners</strong>,
       expert in estate development specialised in streetfood restaurant.
-      They wanted to have a logo representing streetfood to be
-      closer to their clients. The whole identity was build around
+      <br />They wanted to have a logo representing streetfood to be
+      closer to their clients. <br />The whole identity was build around
       that concept with menu-like brochure, etc.
       <br />
       <br />
@@ -220,7 +217,7 @@
   category: edito
   url: /work/requiem.html
   description: |
-      Type book to present the font Requiem.
+      Typebook for the font Requiem, made by Jonathan Hoefler.
       <br />
       <br />
   medium: <strong>editiorial design / typography</strong>
@@ -241,7 +238,7 @@
   category: branding
   url: /work/ddhc.html
   description: |
-      Series of poster for an exhibition about Human Rights
+      Posters about the Human rights. From left to right, the articles are about religion, torture, life and freedom of expression.
       <br />
       <br />
   medium: <strong>poster design</strong>
@@ -256,7 +253,7 @@
   category: branding
   url: /work/ddp.html
   description: |
-      Branding and packaging for 'Le défilé des primeurs', wine of the latest
+      Branding and packaging for 'Le défilé des primeurs', wines of the latest vintage.
       <br />
       <br />
   medium: <strong>brand identity / packaging</strong>
@@ -272,12 +269,7 @@
   category: edito
   url: /work/egg.html
   description: |
-      Lorem ipsum dolor sit ame
-      onsectetur adipisicing elit. Labore tenetur
-      sequi, tempora reiciendis quis autem officia
-      incidunt quidem in assumenda iste non, rerum,
-      amet! Officiis cumque voluptas culpa,
-      voluptatum at!
+      Magazine describing Le laboratoire activities (de Luxe Edition). <br />The first issue is about molecular cooking.
       <br />
       <br />
   medium: <strong>brand identity / editorial design</strong>
@@ -298,12 +290,7 @@
   category: edito
   url: /work/heinz.html
   description: |
-      Lorem ipsum dolor sit ame
-      onsectetur adipisicing elit. Labore tenetur
-      sequi, tempora reiciendis quis autem officia
-      incidunt quidem in assumenda iste non, rerum,
-      amet! Officiis cumque voluptas culpa,
-      voluptatum at!
+      Annual report for Heinz company. It's made like a popular magazine to keep the humoristic tone of the brand.
       <br />
       <br />
   medium: <strong>editiorial design / photography</strong>
@@ -323,12 +310,7 @@
   category: edito
   url: /work/two.html
   description: |
-      Lorem ipsum dolor sit ame
-      onsectetur adipisicing elit. Labore tenetur
-      sequi, tempora reiciendis quis autem officia
-      incidunt quidem in assumenda iste non, rerum,
-      amet! Officiis cumque voluptas culpa,
-      voluptatum at!
+      Photographic book based on the theme "two", comparing two big cities: Paris and New York.
       <br />
       <br />
   medium: <strong>editiorial design / photography</strong>

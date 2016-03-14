@@ -18,9 +18,14 @@
 <div id="project" class="small-padded text-center">
   <div class="container">
     <h1><%= project.name %></h1>
+
+    <% if project.description %>
+      <p><%= project.description %></p>
+    <% end %>
     <% if project.link %>
       <p class="project-link"><%= link_to("See website", project.link, target: "blank") %></p>
     <% end %>
+
     <p><%= project.medium %></p>
     <% project.images.each do |image| %>
       <%= image_tag image, class: "img-responsive img-padded" %>
