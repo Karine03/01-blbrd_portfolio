@@ -8,11 +8,17 @@ title: BLBRD - Portfolio
     <div class="works">
       <% data.portfolio.each do |p| %>
         <div class="work-container">
-          <a class='work-url' href= <%= p.url %> ></a>
-          <div class='work-item'>
-            <div class='work-item-thumbnail'>
-              <%= image_tag p.img_path %>
+          <div class="work-thumbnail">
+            <div class='work-item'>
+              <div class='work-item-thumbnail'>
+                <%= image_tag p.img_path %>
+              </div>
             </div>
+          </div>
+          <div class="work-container-hover text-center">
+            <a class='work-url' href= <%= p.url %> ></a>
+            <h4><%= p.name %></h4>
+            <p><%= p.type %></p>
           </div>
         </div>
       <% end %>
