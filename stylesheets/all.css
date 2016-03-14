@@ -9249,7 +9249,7 @@ button.close {
   -webkit-flex-flow: column;
       -ms-flex-flow: column;
           flex-flow: column;
-  padding: 15px;
+  margin: 15px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 25%;
       -ms-flex: 0 0 25%;
@@ -9258,9 +9258,9 @@ button.close {
     /* line 8, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_features.scss */
     .feature-container {
       -webkit-box-flex: 0;
-      -webkit-flex: 0 0 50%;
-          -ms-flex: 0 0 50%;
-              flex: 0 0 50%; } }
+      -webkit-flex: 0 0 45%;
+          -ms-flex: 0 0 45%;
+              flex: 0 0 45%; } }
   @media (max-width: 480px) {
     /* line 8, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_features.scss */
     .feature-container {
@@ -9271,8 +9271,40 @@ button.close {
   /* line 18, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_features.scss */
   .feature-container img {
     margin: auto; }
+  /* line 21, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_features.scss */
+  .feature-container-hover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    color: transparent;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
 
-/* line 23, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_features.scss */
+/* line 37, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_features.scss */
+.feature-container-hover:hover {
+  background: #2E2B2B;
+  color: white;
+  opacity: 1; }
+
+/* line 44, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_features.scss */
 .feature-url {
   position: absolute;
   top: 0;
@@ -9281,11 +9313,11 @@ button.close {
   left: 0;
   z-index: 4; }
 
-/* line 32, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_features.scss */
+/* line 53, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_features.scss */
 .feature-item {
   width: 100%; }
 
-/* line 37, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_features.scss */
+/* line 58, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_features.scss */
 .feature-item-thumbnail img {
   width: 100%; }
 
@@ -9416,18 +9448,18 @@ button.close {
   -webkit-flex-flow: column;
       -ms-flex-flow: column;
           flex-flow: column;
-  padding: 15px;
+  margin: 15px;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 0 25%;
-      -ms-flex: 0 0 25%;
-          flex: 0 0 25%; }
+  -webkit-flex: 0 0 20%;
+      -ms-flex: 0 0 20%;
+          flex: 0 0 20%; }
   @media (max-width: 992px) {
     /* line 21, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_work.scss */
     .work-container {
       -webkit-box-flex: 0;
-      -webkit-flex: 0 0 50%;
-          -ms-flex: 0 0 50%;
-              flex: 0 0 50%; } }
+      -webkit-flex: 0 0 45%;
+          -ms-flex: 0 0 45%;
+              flex: 0 0 45%; } }
   @media (max-width: 480px) {
     /* line 21, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_work.scss */
     .work-container {
@@ -9438,8 +9470,40 @@ button.close {
   /* line 31, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_work.scss */
   .work-container img {
     margin: auto; }
+  /* line 34, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_work.scss */
+  .work-container-hover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    color: transparent;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
 
-/* line 36, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_work.scss */
+/* line 50, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_work.scss */
+.work-container-hover:hover {
+  background: #2E2B2B;
+  color: white;
+  opacity: 1; }
+
+/* line 57, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_work.scss */
 .work-url {
   position: absolute;
   top: 0;
@@ -9448,11 +9512,11 @@ button.close {
   left: 0;
   z-index: 4; }
 
-/* line 45, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_work.scss */
+/* line 66, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_work.scss */
 .work-item {
   width: 100%; }
 
-/* line 50, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_work.scss */
+/* line 71, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_work.scss */
 .work-item-thumbnail img {
   width: 100%; }
 
