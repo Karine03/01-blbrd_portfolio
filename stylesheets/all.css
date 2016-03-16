@@ -8901,7 +8901,7 @@ button.close {
  * ------------------------------------- */
 /* line 38, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_navbar.css.scss */
 .navbar-wagon {
-  background: white;
+  background: transparent;
   font-family: "Roboto Condensed", "sans-serif";
   border: none;
   font-weight: 400;
@@ -9137,7 +9137,7 @@ button.close {
   left: 50%;
   text-align: center;
   font-size: 60px;
-  color: #2E2B2B; }
+  color: #DCDCDC; }
 
 @media only screen and (max-width: 768px) {
   /* line 13, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_arrow.css.scss */
