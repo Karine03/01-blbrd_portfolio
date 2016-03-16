@@ -11,7 +11,7 @@
       Mamagoto is a japanese word, meaning 'Dinette'.
       <br />
       <br />
-  medium: <strong>branding</strong> (website in construction)
+  medium: <strong>branding</strong> (website under construction)
   images:
     - images/work/mamagoto/mamagoto-1.jpg
     - images/work/mamagoto/mamagoto-2.jpg
@@ -37,8 +37,8 @@
   category: web
   url: /work/lareserve.html
   description: |
-      La réserve is a table management software for restaurant. <br /> It help them
-      organize their bookings, clients, table, employee etc.
+      La Réserve is a table management software for restaurants. <br /> It helps them
+      organize their bookings, clients, tables, staff...
       <br />
       Technos : Ruby on Rails
       <br />
@@ -69,7 +69,7 @@
       The Balloon Diary is a <strong>lifestyle and fashion blog</strong>,
       telling the story of Anna Dawson, an australian girl <br />
       who started a new life in Paris and posting about
-      what she discovers everyday.
+      her everyday discoveries.
       <br />
       <br />
   medium: <strong>website design</strong>
@@ -84,7 +84,7 @@
   category: edito
   url: /work/cointreau.html
   description: |
-      Cocktail card for an event.
+      Cocktail cards for an event.
       <br />
       <br />
   medium: <strong>graphic design / editorial design</strong>
@@ -119,19 +119,17 @@
   url: /work/chateau_siaurac.html
   description: |
       Rebranding for <strong>Château Siaurac and Co</strong>,
-      a french vineyard near Bordeaux.
+      a french vineyard close to Bordeaux.
       <br /><br />
-      After renaming the company as Château Siaurac and Co,
-      instead of Vins Baronne Guichard,<br /> the brand wanted to
-      communicate around the business activity, the vine and
-      the vineyard (they have a huge garden and they wanted to highlight it), <br />
-      to create a brand identity that fits with the activity.
+      Renaming "Vins Baronne Guichard" into "Chateau Siaurac and Co"
+      implies to communicate on business activity,<br /> on wine and vineyard
+      (the brand has a huge chateau and wanted it to be highlighted)
+      and in order to create a brand identity that fits with the activity.
       <br /><br />
-      For the graphic identity, as they wanted to keep their wine label and the
-      color code that goes with it, <br />they choose to have a neutral but elegant color
-      for the graphic identity. <br />They had a lack of graphic unity in all their
-      support (print & web) so the goal was to create a strong unity between
-      all their media.
+      In terms of graphic identity, we had to stick to the existing wine label
+      and color code that goes with it. <br />The choice was to have neutral but elegant
+      color for the graphic identity. <br />Our main objective was to move from a lack of
+      graphic unity between all supports (print & web) to a strong one linking all there media.
       <br />
       <br />
   medium: |
@@ -156,8 +154,8 @@
   description: |
       Prima Contract, a general contractor, wanted to
       have a website to explain their business and show
-      their project.<br /> They also wanted to change their identity
-      for something more impactful and representative of
+      their projects.<br /> They also wanted to change their identity
+      to something more impactful and representative of
       their business.
       <br />
       <br />
@@ -176,9 +174,9 @@
   url: /work/foodstore.html
   description: |
       Branding for <strong>Foodstore and Partners</strong>,
-      expert in estate development specialised in streetfood restaurant.
-      <br />They wanted to have a logo representing streetfood to be
-      closer to their clients. <br />The whole identity was build around
+      expert in business office development specialised in streetfood restaurant.
+      <br />They wanted to have a more client oriented logo representing streedfood.
+      <br />The whole identity was build around
       that concept with menu-like brochure, etc.
       <br />
       <br />
@@ -238,7 +236,7 @@
   category: branding
   url: /work/ddhc.html
   description: |
-      Posters about the Human rights. From left to right, the articles are about religion, torture, life and freedom of expression.
+      Posters about Human rights. From left to right, the articles are about religion, torture, life and freedom of expression.
       <br />
       <br />
   medium: <strong>poster design</strong>
@@ -269,7 +267,7 @@
   category: edito
   url: /work/egg.html
   description: |
-      Magazine describing Le laboratoire activities (de Luxe Edition). <br />The first issue is about molecular cooking.
+      Magazine describing Le laboratoire activities (de Luxe Edition). <br />First issue was about molecular cooking.
       <br />
       <br />
   medium: <strong>brand identity / editorial design</strong>
@@ -290,7 +288,7 @@
   category: edito
   url: /work/heinz.html
   description: |
-      Annual report for Heinz company. It's made like a popular magazine to keep the humoristic tone of the brand.
+      Annual report for Heinz company. It's made like a popular magazine to stick to the humoristic tone of the brand.
       <br />
       <br />
   medium: <strong>editiorial design / photography</strong>
