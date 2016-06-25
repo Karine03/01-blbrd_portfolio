@@ -1,3 +1,21 @@
+- id: openloge
+  name: OpenLoge
+  img_path: images/work/openloge/openloge-thumbnail.jpg
+  bg_img: images/work/openloge/openloge-banner.jpg
+  type: web development - art direction - web design
+  category: web
+  url: /work/openloge.html
+  link: http://www.openloge.fr/
+  description: |
+      Art Direction, web design and web development of all 'logged out' pages for OpenLoge.<br />
+      In each neighbourhood, a local coordinator manage a team of few inhabitants which propose its services in the neighbourhood : <br />
+      babysitting, handyman, airbnb checkin, petsitting, etc.
+      <br />
+      <br />
+  medium: <strong>web development - art direction - web design </strong>
+  images:
+    - images/work/openloge/openloge-1.jpg
+    - images/work/openloge/openloge-2.jpg
 - id: mamagoto
   name: Mamagoto Paris
   img_path: images/work/mamagoto/mamagoto-thumbnail.jpg
