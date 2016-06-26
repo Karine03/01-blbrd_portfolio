@@ -9025,8 +9025,8 @@ button.close {
 
 /* line 21, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_utilities.css.scss */
 .small-padded {
-  padding-top: 4em;
-  padding-bottom: 4em; }
+  padding-top: 2em;
+  padding-bottom: 2em; }
 
 /* line 26, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_utilities.css.scss */
 .padded {
@@ -9092,6 +9092,30 @@ button.close {
   margin-bottom: 25px; }
 
 /* line 84, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_utilities.css.scss */
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  outline: none; }
+
+/* line 89, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_utilities.css.scss */
+a:hover {
+  cursor: pointer; }
+
+/* line 1, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_arrow.css.scss */
+.scroll-btn {
+  position: absolute;
+  width: 100px;
+  margin-left: -50px;
+  bottom: 20px;
+  left: 50%;
+  text-align: center;
+  font-size: 60px;
+  color: #DCDCDC; }
+
+@media only screen and (max-width: 768px) {
+  /* line 13, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_arrow.css.scss */
+  .scroll-btn {
+    color: transparent; } }
+/* line 19, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_arrow.css.scss */
 .fadeInHome {
   animation: fadeInHome 0.5s 0.3s ease forwards;
   -moz-animation: fadeInHome 0.5s 0.3s ease forwards;
@@ -9111,7 +9135,7 @@ button.close {
     opacity: 0; }
   100% {
     opacity: 1; } }
-/* line 123, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_utilities.css.scss */
+/* line 58, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_arrow.css.scss */
 .fadeInArrow {
   animation: fadeInArrow 0.5s 0.5s ease forwards;
   -moz-animation: fadeInArrow 0.5s 0.5s ease forwards;
@@ -9128,21 +9152,6 @@ button.close {
     opacity: 0; }
   100% {
     opacity: 1; } }
-/* line 1, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_arrow.css.scss */
-.scroll-btn {
-  position: absolute;
-  width: 100px;
-  margin-left: -50px;
-  bottom: 20px;
-  left: 50%;
-  text-align: center;
-  font-size: 60px;
-  color: #DCDCDC; }
-
-@media only screen and (max-width: 768px) {
-  /* line 13, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_arrow.css.scss */
-  .scroll-btn {
-    color: transparent; } }
 /* line 1, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_banner.css.scss */
 #banner {
   background-size: cover;
@@ -9320,6 +9329,11 @@ button.close {
 /* line 58, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_features.scss */
 .feature-item-thumbnail img {
   width: 100%; }
+
+/* line 70, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_features.scss */
+#feature-work {
+  padding-top: 1em;
+  padding-bottom: 2em; }
 
 /* Overline Reveal */
 /* line 3, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/components/_overline.css.scss */
