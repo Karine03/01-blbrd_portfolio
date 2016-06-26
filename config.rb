@@ -28,10 +28,9 @@
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
 #  :which_fake_page => "Rendering a fake page with a local variable" }
 
+
 data.portfolio.each do |project|
-  proxy project.url, "/portfolio.html", locals: {
-    project: project
-  }, :ignore => true
+  proxy project.url, "/portfolio.html", locals: { project: project }, :ignore => true
 end
 
 ###

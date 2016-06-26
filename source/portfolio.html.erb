@@ -28,15 +28,18 @@
 
     <p><%= project.medium %></p>
     <% project.images.each do |image| %>
-      <%= image_tag image, class: "img-responsive img-padded" %>
+      <%= image_tag image.url, class: "img-responsive img-padded" %>
+      <% if project.description %>
+        <p><%= image.legend %></p>
+      <% end %>
     <% end %>
   </div>
 </div>
 
 
-<div id="feature-work" class="padded text-center">
+<div id="feature-work" class="text-center">
   <div class="container">
-    <h2 class="mh-padded">Other projects</h2>
+    <h2>Other projects</h2>
     <div class="features">
       <%
         featured = data.portfolio[0..-1]

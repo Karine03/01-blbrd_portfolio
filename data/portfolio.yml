@@ -2,8 +2,8 @@
   name: OpenLoge
   img_path: images/work/openloge/openloge-thumbnail.jpg
   bg_img: images/work/openloge/openloge-banner.jpg
-  type: web development - art direction - web design
-  category: web
+  type: web development
+  category: development
   url: /work/openloge.html
   link: http://www.openloge.fr/
   description: |
@@ -12,10 +12,10 @@
       babysitting, handyman, airbnb checkin, petsitting, etc.
       <br />
       <br />
-  medium: <strong>web development - art direction - web design </strong>
+  medium: <strong>web development / art direction / web design </strong>
   images:
-    - images/work/openloge/openloge-1.jpg
-    - images/work/openloge/openloge-2.jpg
+    - url: images/work/openloge/openloge-1.jpg
+    - url: images/work/openloge/openloge-2.jpg
 - id: mamagoto
   name: Mamagoto Paris
   img_path: images/work/mamagoto/mamagoto-thumbnail.jpg
@@ -25,62 +25,74 @@
   url: /work/mamagoto.html
   link: http://www.mamagoto.fr/
   description: |
-      Branding for Mamagoto, restaurant in Paris.
+      Branding, web design and web development for Mamagoto, restaurant in Paris. <br />
       Mamagoto is a japanese word, meaning 'Dinette'.
       <br />
       <br />
   medium: <strong>web development / website design / branding</strong>
   images:
-    - images/work/mamagoto/mamagoto-1.jpg
-    - images/work/mamagoto/mamagoto-2.jpg
-    - images/work/mamagoto/mamagoto-3.jpg
-# - id: kube
-#   name: Kube
-#   type: web development - web design - UI/UX
-#   category: web
-#   url: /work/kube.html
-#   description: |
-#       Kube is a web app for people looking for something to read.
-#       A dedicated bookseller choose a book for you after answering
-#       a few question about your reading wish.
-#       Technos : Ruby on Rails
-#       <br />
-#       <br />
-#   medium: <strong>web development - web design - UI/UX</strong>
+    - url: images/work/mamagoto/mamagoto-1.jpg
+    - url: images/work/mamagoto/mamagoto-2.jpg
+    - url: images/work/mamagoto/mamagoto-3.jpg
+- id: kube
+  name: Kube
+  img_path: images/work/kube/kube-thumbnail.jpg
+  bg_img: images/work/kube/kube-banner.jpg
+  type: web development
+  category: development
+  url: /work/kube.html
+  link: https://monespace.lakube.com
+  description: |
+      Art direction, web design and web development for Kube ('logged in' pages), a web app for people looking for something to read. <br />
+      A dedicated bookseller choose a book for you after answering a few question about your reading wish. <br />
+      Technos : Ruby on Rails
+      <br />
+      <br />
+  medium: <strong>art direction - web development - web design</strong>
+  images:
+    - url: images/work/kube/kube-1.jpg
+      legend: User interface
+    - url: images/work/kube/kube-2.jpg
+      legend: Order interface
+    - url: images/work/kube/kube-3.jpg
+      legend: Bookseller interface
+    - url: images/work/kube/kube-4.jpg
+      legend: Admin interface
 - id: lareserve
   name: La Réserve
   img_path: images/work/lareserve/reserve-thumbnail.jpg
   bg_img: images/work/lareserve/reserve-banner.jpg
-  type: web development
-  category: web
+  type: web development  
+  category: development
   url: /work/lareserve.html
   description: |
-      La Réserve is a table management software for restaurants. <br /> It helps them
+      Art direction, web design and web development for La Réserve. <br />
+      La Réserve is a table management software for restaurants. It helps them
       organize their bookings, clients, tables, staff...
       <br />
       Technos : Ruby on Rails
       <br />
       <br />
-  medium: <strong>web development / website design / branding</strong>
+  medium: <strong>web development / art direction / web design </strong>
   images:
-    - images/work/lareserve/reserve-1.jpg
+    - url: images/work/lareserve/reserve-1.jpg
 - id: jurisactis
   name: Juris & Actis
   img_path: images/work/jurisactis/juris-thumbnail.jpg
   bg_img: images/work/jurisactis/juris-banner.jpg
-  type: graphic design
+  type: graphic design 
   category: branding
   url: /work/jurisactis.html
   medium: <strong>graphic design / editorial design</strong>
   images:
-    - images/work/jurisactis/juris-1.jpg
-    - images/work/jurisactis/juris-2.jpg
+    - url: images/work/jurisactis/juris-1.jpg
+    - url: images/work/jurisactis/juris-2.jpg
 - id: balloon
   name: The Balloon Diary
   img_path: images/work/balloon/balloon-thumbnail.jpg
   bg_img: images/work/balloon/balloon-banner.jpg
   type: web design
-  category: web
+  category: webdesign
   url: /work/balloon.html
   link: http://www.theballoondiary.com/
   description: |
@@ -92,10 +104,11 @@
       <br />
   medium: <strong>website design</strong>
   images:
-    - images/work/balloon/balloon-1.jpg
-    - images/work/balloon/balloon-2.jpg
+    - url: images/work/balloon/balloon-1.jpg
+    - url: images/work/balloon/balloon-2.jpg
 - id: cointreau
-  name: Rémy Cointreau
+  name: |
+    #CointreauFizz
   img_path: images/work/cointreau/cointreau-thumbnail.jpg
   bg_img: images/work/cointreau/cointreau-banner.jpg
   type: editorial design
@@ -107,13 +120,13 @@
       <br />
   medium: <strong>graphic design / editorial design</strong>
   images:
-    - images/work/cointreau/cointreau-1.jpg
+    - url: images/work/cointreau/cointreau-1.jpg
 - id: something
   name: Something Magazine
   img_path: images/work/something/something-thumbnail.jpg
   bg_img: images/work/something/something-banner.jpg
   type: web design
-  category: web
+  category: webdesign
   url: /work/something.html
   link: http://www.something-mag.com/
   description: |
@@ -125,9 +138,9 @@
       <br />
   medium: <strong>brand identity / website design</strong>
   images:
-    - images/work/something/something-1.jpg
-    - images/work/something/something-2.jpg
-    - images/work/something/something-3.jpg
+    - url: images/work/something/something-1.jpg
+    - url: images/work/something/something-2.jpg
+    - url: images/work/something/something-3.jpg
 - id: siaurac
   name: Château Siaurac and Co
   img_path: images/work/siaurac/siaurac-thumbnail.jpg
@@ -154,20 +167,20 @@
     <strong>brand identity / website design / guidelines / packaging /
     editiorial design / various printed collaterals</strong>
   images:
-    - images/work/siaurac/siaurac-1.jpg
-    - images/work/siaurac/siaurac-2.jpg
-    - images/work/siaurac/siaurac-3.jpg
-    - images/work/siaurac/siaurac-4.jpg
-    - images/work/siaurac/siaurac-5.jpg
-    - images/work/siaurac/siaurac-6.jpg
-    - images/work/siaurac/siaurac-7.jpg
-    - images/work/siaurac/siaurac-8.jpg
+    - url: images/work/siaurac/siaurac-1.jpg
+    - url: images/work/siaurac/siaurac-2.jpg
+    - url: images/work/siaurac/siaurac-3.jpg
+    - url: images/work/siaurac/siaurac-4.jpg
+    - url: images/work/siaurac/siaurac-5.jpg
+    - url: images/work/siaurac/siaurac-6.jpg
+    - url: images/work/siaurac/siaurac-7.jpg
+    - url: images/work/siaurac/siaurac-8.jpg
 - id: prima
   name: Prima
   img_path: images/work/prima/prima-thumbnail.jpg
   bg_img: images/work/prima/prima-banner.jpg
   type: web design
-  category: web
+  category: webdesign
   url: /work/prima.html
   description: |
       Prima Contract, a general contractor, wanted to
@@ -179,10 +192,10 @@
       <br />
   medium: <strong>brand identity / website design</strong>
   images:
-    - images/work/prima/prima-1.jpg
-    - images/work/prima/prima-2.jpg
-    - images/work/prima/prima-3.jpg
-    - images/work/prima/prima-4.jpg
+    - url: images/work/prima/prima-1.jpg
+    - url: images/work/prima/prima-2.jpg
+    - url: images/work/prima/prima-3.jpg
+    - url: images/work/prima/prima-4.jpg
 - id: foodstore
   name: Foodstore and partners
   img_path: images/work/foodstore/foodstore-thumbnail.jpg
@@ -202,18 +215,18 @@
     <strong>brand identity / guidelines /
     editiorial design / various printed collaterals</strong>
   images:
-    - images/work/foodstore/foodstore-1.jpg
-    - images/work/foodstore/foodstore-2.jpg
-    - images/work/foodstore/foodstore-3.jpg
-    - images/work/foodstore/foodstore-4.jpg
-    - images/work/foodstore/foodstore-5.jpg
-    - images/work/foodstore/foodstore-6.jpg
+    - url: images/work/foodstore/foodstore-1.jpg
+    - url: images/work/foodstore/foodstore-2.jpg
+    - url: images/work/foodstore/foodstore-3.jpg
+    - url: images/work/foodstore/foodstore-4.jpg
+    - url: images/work/foodstore/foodstore-5.jpg
+    - url: images/work/foodstore/foodstore-6.jpg
 - id: lafourmi
   name: La Fourmi
   img_path: images/work/lafourmi/lafourmi-thumbnail.jpg
   bg_img: images/work/lafourmi/lafourmi-banner.jpg
   type: web design
-  category: web
+  category: webdesign
   url: /work/lafourmi.html
   link: http://lafourmi-archi.com/accueil/
   description: |
@@ -222,9 +235,9 @@
       <br />
   medium: <strong>brand identity / website design</strong>
   images:
-    - images/work/lafourmi/lafourmi-1.jpg
-    - images/work/lafourmi/lafourmi-2.jpg
-    - images/work/lafourmi/lafourmi-3.jpg
+    - url: images/work/lafourmi/lafourmi-1.jpg
+    - url: images/work/lafourmi/lafourmi-2.jpg
+    - url: images/work/lafourmi/lafourmi-3.jpg
 - id: requiem
   name: Requiem
   img_path: images/work/requiem/requiem-thumbnail.jpg
@@ -238,14 +251,14 @@
       <br />
   medium: <strong>editiorial design / typography</strong>
   images:
-    - images/work/requiem/requiem-1.jpg
-    - images/work/requiem/requiem-2.jpg
-    - images/work/requiem/requiem-3.jpg
-    - images/work/requiem/requiem-4.jpg
-    - images/work/requiem/requiem-5.jpg
-    - images/work/requiem/requiem-6.jpg
-    - images/work/requiem/requiem-7.jpg
-    - images/work/requiem/requiem-8.jpg
+    - url: images/work/requiem/requiem-1.jpg
+    - url: images/work/requiem/requiem-2.jpg
+    - url: images/work/requiem/requiem-3.jpg
+    - url: images/work/requiem/requiem-4.jpg
+    - url: images/work/requiem/requiem-5.jpg
+    - url: images/work/requiem/requiem-6.jpg
+    - url: images/work/requiem/requiem-7.jpg
+    - url: images/work/requiem/requiem-8.jpg
 - id: ddhc
   name: Declaration of Human Rights
   img_path: images/work/ddhc/ddhc-thumbnail.jpg
@@ -259,8 +272,8 @@
       <br />
   medium: <strong>poster design</strong>
   images:
-    - images/work/ddhc/ddhc-1.jpg
-    - images/work/ddhc/ddhc-2.jpg
+    - url: images/work/ddhc/ddhc-1.jpg
+    - url: images/work/ddhc/ddhc-2.jpg
 - id: ddp
   name: Défilé des primeurs
   img_path: images/work/ddp/ddp-thumbnail.jpg
@@ -274,9 +287,9 @@
       <br />
   medium: <strong>brand identity / packaging</strong>
   images:
-    - images/work/ddp/ddp-1.jpg
-    - images/work/ddp/ddp-2.jpg
-    - images/work/ddp/ddp-3.jpg
+    - url: images/work/ddp/ddp-1.jpg
+    - url: images/work/ddp/ddp-2.jpg
+    - url: images/work/ddp/ddp-3.jpg
 - id: egg
   name: Egg Magazine
   img_path: images/work/egg/egg-thumbnail.jpg
@@ -290,14 +303,14 @@
       <br />
   medium: <strong>brand identity / editorial design</strong>
   images:
-    - images/work/egg/egg-1.jpg
-    - images/work/egg/egg-2.jpg
-    - images/work/egg/egg-3.jpg
-    - images/work/egg/egg-4.jpg
-    - images/work/egg/egg-5.jpg
-    - images/work/egg/egg-6.jpg
-    - images/work/egg/egg-7.jpg
-    - images/work/egg/egg-8.jpg
+    - url: images/work/egg/egg-1.jpg
+    - url: images/work/egg/egg-2.jpg
+    - url: images/work/egg/egg-3.jpg
+    - url: images/work/egg/egg-4.jpg
+    - url: images/work/egg/egg-5.jpg
+    - url: images/work/egg/egg-6.jpg
+    - url: images/work/egg/egg-7.jpg
+    - url: images/work/egg/egg-8.jpg
 - id: heinz
   name: Heinz
   img_path: images/work/heinz/heinz-thumbnail.jpg
@@ -311,13 +324,13 @@
       <br />
   medium: <strong>editiorial design / photography</strong>
   images:
-    - images/work/heinz/heinz-1.jpg
-    - images/work/heinz/heinz-2.jpg
-    - images/work/heinz/heinz-3.jpg
-    - images/work/heinz/heinz-4.jpg
-    - images/work/heinz/heinz-5.jpg
-    - images/work/heinz/heinz-7.jpg
-    - images/work/heinz/heinz-8.jpg
+    - url: images/work/heinz/heinz-1.jpg
+    - url: images/work/heinz/heinz-2.jpg
+    - url: images/work/heinz/heinz-3.jpg
+    - url: images/work/heinz/heinz-4.jpg
+    - url: images/work/heinz/heinz-5.jpg
+    - url: images/work/heinz/heinz-7.jpg
+    - url: images/work/heinz/heinz-8.jpg
 - id: two
   name: Two
   img_path: images/work/two/two-thumbnail.jpg
@@ -331,11 +344,11 @@
       <br />
   medium: <strong>editiorial design / photography</strong>
   images:
-    - images/work/two/two-1.jpg
-    - images/work/two/two-2.jpg
-    - images/work/two/two-4.jpg
-    - images/work/two/two-5.jpg
-    - images/work/two/two-7.jpg
-    - images/work/two/two-8.jpg
-    - images/work/two/two-9.jpg
+    - url: images/work/two/two-1.jpg
+    - url: images/work/two/two-2.jpg
+    - url: images/work/two/two-4.jpg
+    - url: images/work/two/two-5.jpg
+    - url: images/work/two/two-7.jpg
+    - url: images/work/two/two-8.jpg
+    - url: images/work/two/two-9.jpg
 

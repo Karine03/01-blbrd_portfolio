@@ -9,6 +9,13 @@
 
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= yield_content(:title) || current_page.data.title || "BLBRD" %></title>
+    <meta name="description" content="Digital communication - Web development, Art Direction, consulting..."/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="http://www.blbrd.com"/>
+    <meta property="og:title" content="Digital communication - Web development - Art Direction"/>
+    <meta property="og:image" content="http://www.blbrd.fr/images/fblogo.png"/>
+    <meta property="og:description" content="Digital communication - Web development, Art Direction, consulting...."/>
+    <meta property="fb:app_id"/>
 
     <%= stylesheet_link_tag "all" %>
     <%= javascript_include_tag  "all" %>
