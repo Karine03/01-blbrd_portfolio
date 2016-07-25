@@ -1,3 +1,20 @@
+- id: kwaala
+  name: Kwaala
+  img_path: images/work/kwaala/kwaala-thumbnail.jpg
+  bg_img: images/work/kwaala/kwaala-banner.jpg
+  type: web development
+  category: development
+  url: /work/kwaala.html
+  link: http://kwaala.fr/
+  description: |
+      Art Direction, web design and web development of Kwaala's website.<br />
+      Kwaala is about sharing economy and allows you to rent anything you need to travel, from other travelers.
+      <br />
+      <br />
+  medium: <strong>web development / art direction / web design </strong>
+  images:
+    - url: images/work/kwaala/kwaala-1.jpg
+    - url: images/work/kwaala/kwaala-2.jpg
 - id: openloge
   name: OpenLoge
   img_path: images/work/openloge/openloge-thumbnail.jpg
@@ -34,6 +51,7 @@
     - url: images/work/mamagoto/mamagoto-1.jpg
     - url: images/work/mamagoto/mamagoto-2.jpg
     - url: images/work/mamagoto/mamagoto-3.jpg
+    - url: images/work/mamagoto/mamagoto-4.jpg
 - id: kube
   name: Kube
   img_path: images/work/kube/kube-thumbnail.jpg
