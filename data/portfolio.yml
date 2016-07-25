@@ -76,6 +76,24 @@
       legend: Bookseller interface
     - url: images/work/kube/kube-4.jpg
       legend: Admin interface
+- id: eticss
+  name: eTICSS
+  img_path: images/work/eticss/eticss-thumbnail.jpg
+  bg_img: images/work/eticss/eticss-banner.jpg
+  type: web development
+  category: development
+  url: /work/eticss.html
+  link: http://www.eticss.fr/
+  description: |
+      Web development for eTICSS.
+      <br />
+      Technos : Ruby on Rails
+      <br />
+      <br />
+  medium: <strong>web development</strong>
+  images:
+    - url: images/work/eticss/eticss-1.jpg
+    - url: images/work/eticss/eticss-2.jpg
 - id: lareserve
   name: La Réserve
   img_path: images/work/lareserve/reserve-thumbnail.jpg
