@@ -1,0 +1,41 @@
+    
+
+    <nav class="navbar navbar-default navbar-fixed-top navbar-wagon" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <% link_to "/index.html", class: "navbar-brand" do %>
+            <%= image_tag 'logo.svg' %>
+          <% end %>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+          <ul class="nav navbar-nav navbar-right">
+            <li class="hvr-overline-reveal">
+              <% link_to "/work.html" do %>
+                PORTFOLIO
+              <% end %>
+            </li>
+            <li class="hvr-overline-reveal dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">FOLLOW<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://www.pinterest.com/BLBRD/"><i class="fa fa-pinterest"></i> Pinterest</a></li>
+                <li><a href="https://www.behance.net/BLBRD"><i class="fa fa-behance"></i> Behance</a></li>
+                <li><a href="https://twitter.com/BLBRD_Paris"><i class="fa fa-twitter"></i> Twitter</a></li>
+              </ul>
+            </li>
+            <li class="hvr-overline-reveal">
+              <a href="mailto:karine.blbrd@gmail.com">CONTACT US</a>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
