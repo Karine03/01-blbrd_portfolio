@@ -1,17 +1,10 @@
-// Your footer style
-
-#footer {
-  background-color: $dark-grey;
-  padding:20px 0;
-  color:white;
-  p {
-    padding-top: 20px;
-  }
+.footer {
+  max-width: 940px;
+  margin: 15px auto;
+  height: 50px;
   a {
-    color:white;
-    &:hover {
-    color: lighten($dark-grey, 40%);
-    text-decoration: none;
-    }
+    color: $black;
+    font-family: "Bodoni-italic";
+    text-decoration: underline;
   }
 }
