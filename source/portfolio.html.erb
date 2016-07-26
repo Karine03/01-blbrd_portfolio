@@ -3,27 +3,15 @@
 
 <% content_for(:title, project.name) %>
 
-<div id="banner" class="text-center" style="background: url('<%= image_path project.bg_img%>') no-repeat center center; background-size: cover; @media only screen and ($screen-md) {
-      background: no-repeat bottom center scroll;
-      padding-top: 150px;
-      padding-bottom: 150px;
-  }">
-  <div class="arrow-container fadeInArrow">
-    <a href="#project">
-      <i class="fa fa-angle-down scroll-btn"></i>
-    </a>
-  </div>
-</div>
-
-<div id="project" class="small-padded text-center">
-  <div class="container">
+<div id="project" class="text-center">
+  <div class="container-fluid">
     <h1><%= project.name %></h1>
 
     <% if project.description %>
       <p><%= project.description %></p>
     <% end %>
     <% if project.link %>
-      <p class="project-link"><%= link_to("See website", project.link, target: "blank") %></p>
+      <p class="txt-bold"><%= link_to("See website", project.link, target: "blank") %></p>
     <% end %>
 
     <p><%= project.medium %></p>
@@ -33,19 +21,22 @@
         <p><%= image.legend %></p>
       <% end %>
     <% end %>
+    <% if project.credit %>
+      <p><%= project.credit %></p>
+    <% end %>
   </div>
 </div>
 
 
 <div id="feature-work" class="text-center">
-  <div class="container">
+  <div class="container-fluid">
     <h2>Other projects</h2>
     <div class="features">
       <%
         featured = data.portfolio[0..-1]
         featured.delete_if{|item| item.name == project.name }
         featured.delete_if{|item| item.category != project.category }
-        featured.sample(3).each do |f| %>
+        featured.sample(4).each do |f| %>
           <div class="feature-container">
             <div class="feature-container-hover text-center">
               <a class='feature-url' href= <%= f.url %> ></a>

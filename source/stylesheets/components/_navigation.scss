@@ -1,0 +1,25 @@
+.navigation-phrase {
+	font-family: "Bodoni", "serif";
+	max-width: 940px;
+	margin: auto;
+	font-size: 30px;
+	color: #2F2F2F;
+	margin-top: 15px;
+	span {
+		font-size: 32px;
+		@media (max-width: $screen-xs) {
+			font-size: 22px;
+		}
+	}
+	a {
+		font-size: 32px;
+		text-decoration: underline;
+		color: $black;
+		@media (max-width: $screen-xs) {
+			font-size: 22px;
+		}
+	}
+	@media (max-width: $screen-xs) {
+		font-size: 20px;
+	}
+}

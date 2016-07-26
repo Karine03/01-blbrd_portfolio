@@ -2,72 +2,12 @@
 title: BLBRD - Web Development and Art Direction in Paris
 ---
 
-<div id="banner" class="text-center" style="background-image: url('<%= image_path('banner3.jpg')%>');">
-  <div class="fadeInHome">
-    <h1>ART DIRECTION AND WEB DEVELOPMENT</h1>
-    <span class="subhead-big">
-      Timeless, powerful, consistent and elegant design for your brand
-    </span>
-    <br>
-    <%=link_to"See the portfolio", "/work.html", class: "btn btn-info btn-lg"%>
-  </div>
-  <div class="arrow-container fadeInArrow">
-    <a href="#services">
-      <i class="fa fa-angle-down scroll-btn"></i>
-    </a>
-  </div>
-</div>
+<%= partial "navigation" %>
 
-
-<div id="services" class="padded">
-  <div class="container">
-    <div class="services text-center">
-
-      <div class="service-container">
-       <%= image_tag "focus.png", alt: "focus"%>
-       <h3 class="sh-padded">#strategy</h3>
-       <p>
-          From idea to delivery, we focus on a way to <strong>make your brand matter</strong>. We work closely with our clients to redefine their brand strategy.
-       </p>
-       <br>
-      </div>
-
-      <div class="service-container">
-        <%= image_tag "brightness.png", alt: "idea"%>
-        <h3 class="sh-padded">#creativity</h3>
-        <p>
-          Creativity is always at <strong>the heart of our approch</strong>. We create simple answer where form and function work together as one to make a clear and <strong>appropriate design</strong>.
-        </p>
-        <br>
-      </div>
-
-      <div class="service-container">
-        <%= image_tag "dev.png", alt: "tools"%>
-        <h3 class="sh-padded">#multidisciplinary</h3>
-        <p>
-          Whether it's to <strong>design</strong> your brand, develop <strong>web apps</strong> or <strong>websites</strong>, we have all the necessary tools to deliver <strong>premium artwork</strong>.
-        </p>
-        <br>
-      </div>
-
-      <div class="service-container">
-        <%= image_tag "helicopter.png", alt: "international"%>
-        <h3 class="sh-padded">#international</h3>
-        <p>
-          We are always thrilled to work with <strong>international brand</strong>! Curious about <strong>foreign cultures</strong>, and proud to bring our <strong>french touch</strong>!
-        </p>
-      </div>
-
-    </div>
-
-  </div>
-</div>
-
-<div id="work-exemple" class="padded text-center">
-  <div class="container">
-    <h2 class="mh-padded">Last projects</h2>
+<div id="work" class="text-center">
+  <div class="container-fluid">
     <div class="works">
-      <% data.portfolio.first(4).each do |p| %>
+      <% data.portfolio.each do |p| %>
         <div class="work-container">
           <div class="work-thumbnail">
             <div class='work-item'>
@@ -83,9 +23,7 @@ title: BLBRD - Web Development and Art Direction in Paris
           </div>
         </div>
       <% end %>
-      <div class="work-container">
-        <%=link_to"See full portfolio", "/work.html", class: "btn btn-primary btn-lg"%>
-      </div>
     </div>
   </div>
 </div>
+

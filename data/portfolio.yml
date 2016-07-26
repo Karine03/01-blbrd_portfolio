@@ -15,24 +15,6 @@
   images:
     - url: images/work/kwaala/kwaala-1.jpg
     - url: images/work/kwaala/kwaala-2.jpg
-- id: openloge
-  name: OpenLoge
-  img_path: images/work/openloge/openloge-thumbnail.jpg
-  bg_img: images/work/openloge/openloge-banner.jpg
-  type: web development
-  category: development
-  url: /work/openloge.html
-  link: http://www.openloge.fr/
-  description: |
-      Art Direction, web design and web development of all 'logged out' pages for OpenLoge.<br />
-      In each neighbourhood, a local coordinator manage a team of few inhabitants which propose its services in the neighbourhood : <br />
-      babysitting, handyman, airbnb checkin, petsitting, etc.
-      <br />
-      <br />
-  medium: <strong>web development / art direction / web design </strong>
-  images:
-    - url: images/work/openloge/openloge-1.jpg
-    - url: images/work/openloge/openloge-2.jpg
 - id: mamagoto
   name: Mamagoto Paris
   img_path: images/work/mamagoto/mamagoto-thumbnail.jpg
@@ -52,6 +34,26 @@
     - url: images/work/mamagoto/mamagoto-2.jpg
     - url: images/work/mamagoto/mamagoto-3.jpg
     - url: images/work/mamagoto/mamagoto-4.jpg
+- id: openloge
+  name: OpenLoge
+  img_path: images/work/openloge/openloge-thumbnail.jpg
+  bg_img: images/work/openloge/openloge-banner.jpg
+  type: web development
+  category: development
+  url: /work/openloge.html
+  link: http://www.openloge.fr/
+  description: |
+      Art Direction, web design and web development of all 'logged out' pages for OpenLoge.<br />
+      In each neighbourhood, a local coordinator manage a team of few inhabitants which propose its services in the neighbourhood : <br />
+      babysitting, handyman, airbnb checkin, petsitting, etc.
+      <br />
+      <br />
+  medium: <strong>web development / art direction / web design </strong>
+  images:
+    - url: images/work/openloge/openloge-1.jpg
+    - url: images/work/openloge/openloge-2.jpg
+  credit: |
+    Illustrations by: Frédéric Choblet
 - id: kube
   name: Kube
   img_path: images/work/kube/kube-thumbnail.jpg
@@ -96,6 +98,8 @@
   images:
     - url: images/work/eticss/eticss-1.jpg
     - url: images/work/eticss/eticss-2.jpg
+  credit: |
+    Design by: Agence Beaurepaire
 - id: lareserve
   name: La Réserve
   img_path: images/work/lareserve/reserve-thumbnail.jpg
@@ -103,6 +107,7 @@
   type: web development  
   category: development
   url: /work/lareserve.html
+  link: http://www.lareserve.io/
   description: |
       Art direction, web design and web development for La Réserve. <br />
       La Réserve is a table management software for restaurants. It helps them
@@ -144,6 +149,8 @@
   images:
     - url: images/work/balloon/balloon-1.jpg
     - url: images/work/balloon/balloon-2.jpg
+  credit: |
+    Photos by: The Balloon Diary
 - id: cointreau
   name: |
     #CointreauFizz
@@ -234,6 +241,8 @@
     - url: images/work/prima/prima-2.jpg
     - url: images/work/prima/prima-3.jpg
     - url: images/work/prima/prima-4.jpg
+  credit: |
+    Photo by: ©PB
 - id: foodstore
   name: Foodstore and partners
   img_path: images/work/foodstore/foodstore-thumbnail.jpg
