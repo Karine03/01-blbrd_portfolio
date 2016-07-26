@@ -8917,7 +8917,7 @@ button.close {
   .navbar-wagon .navbar-nav > li > a:focus,
   .navbar-wagon .navbar-nav > .open > a:focus {
     outline: none;
-    color: #FF6D5E;
+    color: #333333;
     line-height: 60px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -8933,7 +8933,7 @@ button.close {
   .navbar-wagon .navbar-brand,
   .navbar-wagon .navbar-brand:hover {
     outline: none;
-    color: #FF6D5E;
+    color: #333333;
     padding-top: 5px;
     padding-bottom: 5px; }
   /* line 79, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_navbar.css.scss */
@@ -9007,7 +9007,7 @@ button.close {
   /* line 155, /Users/karinebialobroda/code/Karine03/01-blbrd_portfolio/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand, .navbar-wagon .navbar-brand:hover {
     display: block;
-    color: #FF6D5E;
+    color: #333333;
     padding-top: 0;
     padding-bottom: 0; } }
 /* -------------------------------------
